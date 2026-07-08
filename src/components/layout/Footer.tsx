@@ -1,14 +1,24 @@
 "use client";
 import Link from "next/link";
 import { siteConfig, navLinks } from "@/data/site";
-import { Twitter, Facebook, Instagram, Linkedin, Youtube, Mail, Phone, MapPin } from "lucide-react";
+import { Twitter, Facebook, Instagram, Linkedin, Youtube, Mail, Phone, MapPin, X } from "lucide-react";
+import Image from "next/image";
+
+// Simple inline TikTok SVG icon since lucide-react doesn't include a Tiktok export
+const TiktokIcon = (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.5 3.5h2.25v2.25A6.75 6.75 0 1 1 9 9.5v-2.25a4.5 4.5 0 1 0 7.5-3.75V3.5z" />
+  </svg>
+);
 
 const socialIcons: Record<string, React.ReactNode> = {
-  twitter: <Twitter size={16} />,
+  // twitter: <Twitter size={16} />,
   facebook: <Facebook size={16} />,
   instagram: <Instagram size={16} />,
   linkedin: <Linkedin size={16} />,
   youtube: <Youtube size={16} />,
+  tiktok: TiktokIcon,
+  X: <X size={16} />,
 };
 
 export default function Footer() {
@@ -19,11 +29,11 @@ export default function Footer() {
         {/* Brand col */}
         <div className="lg:col-span-1">
           <div className="flex items-center gap-3 mb-5">
-            <div className="w-10 h-10 bg-emerald-700 flex items-center justify-center text-white font-black text-sm">
-              NUF
+            <div className="w-10 h-10 flex items-center justify-center text-white font-black text-sm">
+              <Image src={siteConfig.logo} alt={siteConfig.shortName} width={40} height={40} className="rounded-full" />
             </div>
             <div>
-              <div className="text-white font-bold text-sm leading-tight font-display">N'Uwakaobiri</div>
+              <div className="text-white font-bold text-sm leading-tight font-display">N'UWAKAOBIRI</div>
               <div className="text-emerald-400 text-xs tracking-wide">Foundation</div>
             </div>
           </div>

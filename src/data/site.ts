@@ -3,22 +3,34 @@
 // Edit this file to update content across the entire site.
 // =============================================================
 
+import { X } from "lucide-react";
+
 export const siteConfig = {
   name: "N'Uwakaobiri Foundation",
   shortName: "NUF",
+  logo: "/images/nuwakaobirifdn-logo.jpeg",
+  unity: "/images/nuwaphoto1.jpeg",
+  power2: "/images/power2.jpg",
+  power4: "/images/power4.jpg",
+  power1: "/images/power1.webp",
+  power3: "/images/power3.webp",
+  power5: "/images/power5.jpg",
   tagline: "Rooted in Youths Empowerment.",
   description:
     "The N'Uwakaobiri Foundation is a non-profit organisation dedicated to empowering the youths through education, healthcare, and economic opportunity across Nigeria and West Africa.",
   email: "info@nuwakaobirifoundation.org",
   phone: "+234 800 000 0000",
   address: "14 Foundation Drive, Victoria Island, Lagos, Nigeria",
-  founded: "2018",
+  founded: "2021",
   socials: {
-    twitter: "https://twitter.com/NUFoundation",
-    facebook: "https://facebook.com/NUFoundation",
+    // twitter: "https://twitter.com/NUFoundation",
+    facebook: "https://www.facebook.com/share/18pxbCDMMx/?mibextid=wwXIfr",
     instagram: "https://instagram.com/NUFoundation",
     linkedin: "https://linkedin.com/company/nuwakaobiri-foundation",
-    youtube: "https://youtube.com/@NUFoundation",
+    youtube: "https://www.youtube.com/@NuwakaobiriFoundation-1",
+    tiktok: "https://www.tiktok.com/@nuwakaobirifoundation?_r=1&_t=ZN-97CkgDEeAh4",
+    X: "https://x.com/nuwa_foundation?s=11",
+
   },
 };
 
@@ -152,32 +164,32 @@ export const programmeSteps = [
 export const stories = [
   {
     id: "1",
-    name: "Chisom Okafor",
-    location: "Enugu State",
-    programme: "Economic Empowerment",
-    headline: "From a Market Stall to a Thriving Tailoring Business",
-    body: "With a ₦150,000 micro-grant and 10 weeks of business training, Chisom turned her small tailoring hobby into a 6-person workshop now supplying schools across Enugu.",
-    image: "/images/stories/chisom.jpg",
+    name: "Chimezie Ossai",
+    location: "Lisbon, Portugal",
+    programme: "Youth Empowerment Programme",
+    headline: "From doing a menial job to travelling the world — all thanks to a micro-grant",
+    body: "Chimezie received a sponsored visa and micro-grant from NUF to start a small business in Lisbon. He now employs 5 people and has expanded to two other European countries.",
+    image: "/images/stories/chimezie.jpg",
     imageFallback: "CO",
   },
   {
     id: "2",
-    name: "Ibrahim Musa",
-    location: "Kano State",
+    name: "Ayomide Balogun",
+    location: "London, United Kingdom",
     programme: "Education Programme",
-    headline: "Scholarship Changed My Trajectory — Now I Study Engineering",
-    body: "Ibrahim was about to drop out of secondary school before NUF's scholarship stepped in. He now studies Electrical Engineering at Bayero University, Kano.",
-    image: "/images/stories/ibrahim.jpg",
+    headline: "Scholarship Changed My Trajectory — Now I Study Electrical Engineering at University in UK",
+    body: "Ayomide was about to drop out of secondary school before NUF's scholarship stepped in. He now studies Electrical Engineering at Bayero University, Kano.",
+    image: "/images/stories/ayomide.jpg",
     imageFallback: "IM",
   },
   {
     id: "3",
-    name: "Adaeze Nnaji",
-    location: "Imo State",
-    programme: "Women & Youth",
-    headline: "The Leadership Academy Gave Me a Voice I Didn't Know I Had",
-    body: "Adaeze attended the NUF Women's Leadership Academy and went on to found a community savings cooperative that now serves 200 women in her village.",
-    image: "/images/stories/adaeze.jpg",
+    name: "samuel Ezeh",
+    location: "Texas, United States",
+    programme: "Youth Leadership Academy",
+    headline: "The Leadership Academy Gave Me an opportunity to achieve my dream of studying in the United States",
+    body: "samuel Ezeh attended the NUF Youth Leadership Academy and went on to receive a full scholarship to study in the United States.",
+    image: "/images/stories/samuel.jpg",
     imageFallback: "AN",
   },
 ];
@@ -259,10 +271,10 @@ export const leadership = [
     initials: "TA",
   },
   {
-    name: "Dr. Fatima Bello",
-    title: "Head of Healthcare Initiative",
-    bio: "A public health specialist and former WHO consultant, Fatima designs and oversees all NUF medical outreach and clinic programmes.",
-    image: "/images/team/fatima.jpg",
-    initials: "FB",
+    name: "Dr. Samuel Ezeh",
+    title: "Media & Communications Lead",
+    bio: "AN IT specialist with a passion for storytelling and digital communication.",
+    image: "/images/team/samuel.jpg",
+    initials: "SE",
   },
 ];

@@ -1,7 +1,8 @@
 "use client";
 import Link from "next/link";
-import { programmeSteps } from "@/data/site";
+import { programmeSteps, siteConfig } from "@/data/site";
 import { ArrowRight } from "lucide-react";
+import Image from "next/image";
 
 export default function ProgrammeSection() {
   return (
@@ -47,11 +48,18 @@ export default function ProgrammeSection() {
           </div>
 
           {/* Image + quote */}
-          <div className="relative">
-            <img
+          <div className="relative ">
+            {/* <img
               src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=800&q=80"
               alt="Programme participants"
               className="w-full h-[560px] object-cover"
+            /> */}
+            <Image
+              src={siteConfig.power5}
+              alt="Programme participants"
+              width={800}
+              height={560}
+              className="w-full h-[560px] object-cover rounded-md"
             />
             {/* Quote overlay */}
             <div className="absolute bottom-0 left-0 right-0 bg-emerald-900/95 p-8">

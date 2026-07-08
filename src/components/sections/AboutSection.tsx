@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { about, siteConfig } from "@/data/site";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
+import Image from "next/image";
 
 const values = [
   "Community-led, community-owned programmes",
@@ -18,14 +19,16 @@ export default function AboutSection() {
           {/* Image side */}
           <div className="relative">
             <div className="relative overflow-hidden">
-              <img
-                src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=800&q=80"
-                alt="Community members gathered"
+              <Image
+                src={siteConfig.power3}
+                alt={siteConfig.shortName}
+                width={800}
+                height={520}
                 className="w-full h-[520px] object-cover"
               />
             </div>
             {/* Floating card */}
-            <div className="absolute -bottom-6 -right-6 bg-emerald-800 text-white p-6 max-w-[200px] hidden md:block">
+            <div className="absolute -bottom-6 -right-6 bg-emerald-800 text-white p-6 max-w-[200px] hidden md:block rounded-md">
               <div className="font-display font-black text-4xl leading-none mb-1">
                 {siteConfig.founded}
               </div>
@@ -33,7 +36,7 @@ export default function AboutSection() {
                 Year Founded
               </div>
               <div className="mt-3 text-xs text-emerald-300 leading-snug">
-                Six years of sustained community investment
+                Six years of sustained youth empowerment and community development initiatives across Nigeria and West Africa.
               </div>
             </div>
             {/* Accent block */}

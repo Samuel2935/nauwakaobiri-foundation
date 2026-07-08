@@ -9,7 +9,8 @@ export default function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=1800&q=85')",
+          backgroundImage: "url('/images/power4.jpg')",
+          // backgroundSize: "50%"
         }}
       />
       {/* Layered overlay — dark left, lighter right for text legibility */}
@@ -23,7 +24,7 @@ export default function Hero() {
           <div className="inline-flex items-center gap-3 mb-8">
             <div className="w-8 h-px bg-yellow-400" />
             <span className="text-yellow-400 text-xs font-bold tracking-[0.2em] uppercase">
-              Rooted in Community. Rising Together.
+              Rooted in Youth Empowerment. Phlantropism. Community Development.
             </span>
           </div>
 
