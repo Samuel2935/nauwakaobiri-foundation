@@ -36,7 +36,8 @@ export default function AboutSection() {
                 Year Founded
               </div>
               <div className="mt-3 text-xs text-emerald-300 leading-snug">
-                Six years of sustained youth empowerment and community development initiatives across Nigeria and West Africa.
+                Five years of sustained youth empowerment and community
+                development initiatives across Nigeria and West Africa.
               </div>
             </div>
             {/* Accent block */}
@@ -68,8 +69,14 @@ export default function AboutSection() {
 
             <ul className="space-y-3 mb-8">
               {values.map((v) => (
-                <li key={v} className="flex items-start gap-3 text-sm text-gray-600">
-                  <CheckCircle2 size={16} className="text-emerald-600 mt-0.5 shrink-0" />
+                <li
+                  key={v}
+                  className="flex items-start gap-3 text-sm text-gray-600"
+                >
+                  <CheckCircle2
+                    size={16}
+                    className="text-emerald-600 mt-0.5 shrink-0"
+                  />
                   {v}
                 </li>
               ))}
@@ -80,7 +87,10 @@ export default function AboutSection() {
               className="inline-flex items-center gap-2 text-emerald-700 font-bold text-sm uppercase tracking-widest group hover:text-emerald-900 transition-colors"
             >
               More About Us
-              <ArrowRight size={15} className="group-hover:translate-x-1 transition-transform" />
+              <ArrowRight
+                size={15}
+                className="group-hover:translate-x-1 transition-transform"
+              />
             </Link>
           </div>
         </div>

@@ -69,8 +69,8 @@ export const navLinks = [
     ],
   },
   {
-    label: "Get Involved",
-    href: "#partners",
+    label: "volunteer",
+    href: "#volunteer",
     children: [
       { label: "Volunteer", href: "#pillars" },
       { label: "Partner With Us", href: "#partner" },
@@ -95,7 +95,7 @@ export const navLinks = [
 export const stats = [
   { value: "5,400+", label: "Lives Impacted", description: "Individuals reached through our programmes" },
   { value: "₦2.1B+", label: "Funds Disbursed", description: "Grants, scholarships, and seed capital" },
-  { value: "7+", label: "States Reached", description: "Active across all 36 Nigerian states" },
+  { value: "7+", label: "States Reached", description: "Active across at least 7 Nigerian states" },
   { value: "2021", label: "Year Founded", description: "five years of sustained community impact" },
 ];
 
