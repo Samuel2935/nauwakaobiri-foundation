@@ -28,63 +28,65 @@ export const navLinks = [
     label: "About",
     href: "#about",
     children: [
-      { label: "Our Story", href: "/about" },
-      { label: "Mission & Vision", href: "/about#mission" },
-      { label: "Our Founders", href: "/about#founders" },
-      { label: "Leadership & Board", href: "/about#leadership" },
-      { label: "Our Philosophy", href: "/about#philosophy" },
+      { label: "Our Story", href: "#success-stories" },
+      { label: "Mission & Vision", href: "#mission" },
+      { label: "Our Founders", href: "#founders" },
+      { label: "Leadership & Board", href: "#leadership" },
+      { label: "Our Philosophy", href: "#philosophy" },
     ],
   },
   {
     label: "What We Do",
     href: "#programmes",
     children: [
-      { label: "Our Impact Pillars", href: "/programmes" },
-      { label: "Education Programme", href: "/programmes/education" },
-      { label: "Healthcare Initiative", href: "/programmes/healthcare" },
-      { label: "Economic Empowerment", href: "/programmes/economic" },
-      { label: "Women & Youth", href: "/programmes/women-youth" },
+      { label: "Our Impact Pillars", href: "#programmes" },
+      { label: "Education Programme", href: "#programmes" },
+      { label: "Healthcare Initiative", href: "#programmes" },
+      { label: "Economic Empowerment", href: "#programmes" },
+      { label: "Women & Youth", href: "#programmes" },
     ],
   },
   {
     label: "Impact",
     href: "#impact",
     children: [
-      { label: "Impact at a Glance", href: "/impact" },
-      { label: "Annual Reports", href: "/impact/reports" },
-      { label: "Success Stories", href: "/impact/stories" },
-      { label: "Partners", href: "/impact/partners" },
+      { label: "Impact at a Glance", href: "#impact" },
+      { label: "Annual Reports", href: "#reports" },
+      { label: "Success Stories", href: "#success-stories" },
+      { label: "Partners", href: "#partners" },
     ],
   },
   {
     label: "Get Involved",
     href: "#partners",
     children: [
-      { label: "Volunteer", href: "/get-involved/volunteer" },
-      { label: "Partner With Us", href: "/get-involved/partner" },
-      { label: "Apply to a Programme", href: "/get-involved/apply" },
-      { label: "Mentorship", href: "/get-involved/mentor" },
+      { label: "Volunteer", href: "#pillars" },
+      { label: "Partner With Us", href: "#partner" },
+      { label: "Apply to a Programme", href: "#apply" },
+      // { label: "Mentorship", href: "/get-involved/mentor" },
     ],
   },
   {
     label: "Media",
     href: "#media",
     children: [
-      { label: "News & Stories", href: "/media/news" },
-      { label: "Press Releases", href: "/media/press" },
-      { label: "Gallery", href: "/media/gallery" },
-      { label: "Podcasts", href: "/media/podcasts" },
+      { label: "News & Stories", href: "#success-stories" },
+      { label: "Press Releases", href: "#media" },
+      { label: "Gallery", href: "#gallery" },
+      { label: "Podcasts", href: "#podcasts" },
     ],
   },
 ];
 
 // ─── STATS ─────────────────────────────────────────────────────
+
 export const stats = [
-  { value: "12,400+", label: "Lives Impacted", description: "Individuals reached through our programmes" },
+  { value: "5,400+", label: "Lives Impacted", description: "Individuals reached through our programmes" },
   { value: "₦2.1B+", label: "Funds Disbursed", description: "Grants, scholarships, and seed capital" },
-  { value: "36", label: "States Reached", description: "Active across all 36 Nigerian states" },
-  { value: "2018", label: "Year Founded", description: "Six years of sustained community impact" },
+  { value: "7+", label: "States Reached", description: "Active across all 36 Nigerian states" },
+  { value: "2021", label: "Year Founded", description: "five years of sustained community impact" },
 ];
+
 
 // ─── IMPACT PILLARS ────────────────────────────────────────────
 export const pillars = [
@@ -224,7 +226,7 @@ export const partners = [
 // ─── ABOUT ─────────────────────────────────────────────────────
 export const about = {
   story:
-    "N'Uwakaobiri — meaning 'the heart of the community' in Igbo — was founded in 2018 by Dr. Emeka Obi and Chief (Mrs.) Ngozi Obi with a simple conviction: that every Nigerian community contains the talent and will to transform itself, and that a foundation's job is to unlock it. What began as a small scholarship fund in Anambra State has grown into a multi-programme organisation reaching all 36 states.",
+    "N'Uwakaobiri Foundation — was founded in 2026 by Honourable Chief Chinedu Samuel Edeh with a simple conviction: that every Nigerian youth deserves the opportunity to thrive, notwithstanding their background. What began as a small empoerment, grows into a massive scheme of societal transformation in Nigeria. The organisation has grown into a multi-programme organisation reaching many vulnerable people.",
   mission:
     "To invest in people and communities across Nigeria by funding education, health, and economic opportunities that create lasting, generational change.",
   vision:

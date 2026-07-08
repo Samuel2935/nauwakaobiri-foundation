@@ -21,8 +21,8 @@ export default function Hero() {
         <div className="max-w-3xl">
           {/* Eyebrow */}
           <div className="inline-flex items-center gap-3 mb-8">
-            <div className="w-8 h-px bg-emerald-400" />
-            <span className="text-emerald-400 text-xs font-bold tracking-[0.2em] uppercase">
+            <div className="w-8 h-px bg-yellow-400" />
+            <span className="text-yellow-400 text-xs font-bold tracking-[0.2em] uppercase">
               Rooted in Community. Rising Together.
             </span>
           </div>
