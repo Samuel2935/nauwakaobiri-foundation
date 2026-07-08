@@ -25,7 +25,7 @@ export default function Hero() {
           <div className="inline-flex items-center gap-3 mb-8">
             <div className="w-8 h-px bg-yellow-400" />
             <span className="text-yellow-400 text-xs font-bold tracking-[0.2em] uppercase">
-              Rooted in Youth Empowerment. Phlantropism. Community Development.
+              Rooted in Youth Empowerment. Philantropism. Community Development.
             </span>
           </div>
 
