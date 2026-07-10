@@ -25,7 +25,7 @@ export const siteConfig = {
   socials: {
     // twitter: "https://twitter.com/NUFoundation",
     facebook: "https://www.facebook.com/share/18pxbCDMMx/?mibextid=wwXIfr",
-    instagram: "https://instagram.com/NUFoundation",
+    instagram: "https://www.instagram.com/nuwakaobirifoundation?utm_source=qr",
     linkedin: "https://linkedin.com/company/nuwakaobiri-foundation",
     youtube: "https://www.youtube.com/@NuwakaobiriFoundation-1",
     tiktok: "https://www.tiktok.com/@nuwakaobirifoundation?_r=1&_t=ZN-97CkgDEeAh4",
