@@ -18,8 +18,8 @@ export const siteConfig = {
   tagline: "Rooted in Youths Empowerment.",
   description:
     "The N'Uwakaobiri Foundation is a non-profit organisation dedicated to empowering the youths through education, healthcare, and economic opportunity across Nigeria and West Africa.",
-  email: "info@nuwakaobirifoundation.org",
-  phone: "+234 800 000 0000",
+  email: "nuwakaobirifoundation@gmail.com",
+  phone: "+234 703 843 3864",
   address: "14 Foundation Drive, Victoria Island, Lagos, Nigeria",
   founded: "2021",
   socials: {
