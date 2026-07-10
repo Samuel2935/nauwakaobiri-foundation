@@ -169,7 +169,7 @@ export const stories = [
     programme: "Youth Empowerment Programme",
     headline: "From doing a menial job to travelling the world — all thanks to a micro-grant",
     body: "Chimezie received a sponsored visa and micro-grant from NUF to start a small business in Lisbon. He now employs 5 people and has expanded to two other European countries.",
-    image: "/images/stories/chimezie.jpg",
+    image: "/images/smart.jpeg",
     imageFallback: "CO",
   },
   {
@@ -179,7 +179,7 @@ export const stories = [
     programme: "Education Programme",
     headline: "Scholarship Changed My Trajectory — Now I Study Electrical Engineering at University in UK",
     body: "Ayomide was about to drop out of secondary school before NUF's scholarship stepped in. He now studies Electrical Engineering at Bayero University, Kano.",
-    image: "/images/stories/ayomide.jpg",
+    image: "/images/power3.webp",
     imageFallback: "IM",
   },
   {
@@ -189,7 +189,7 @@ export const stories = [
     programme: "Youth Leadership Academy",
     headline: "The Leadership Academy Gave Me an opportunity to achieve my dream of studying in the United States",
     body: "samuel Ezeh attended the NUF Youth Leadership Academy and went on to receive a full scholarship to study in the United States.",
-    image: "/images/stories/samuel.jpg",
+    image: "/images/images1.jpg",
     imageFallback: "AN",
   },
 ];
