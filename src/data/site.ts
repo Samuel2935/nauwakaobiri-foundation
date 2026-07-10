@@ -238,7 +238,7 @@ export const partners = [
 // ─── ABOUT ─────────────────────────────────────────────────────
 export const about = {
   story:
-    "N'Uwakaobiri Foundation — was founded in 2026 by Honourable Chief Chinedu Samuel Edeh with a simple conviction: that every Nigerian youth deserves the opportunity to thrive, notwithstanding their background. What began as a small empoerment, grows into a massive scheme of societal transformation in Nigeria. The organisation has grown into a multi-programme organisation reaching many vulnerable people.",
+    "N'Uwakaobiri Foundation — was founded in 2021 by Honourable Chief Chinedu Samuel Edeh with a simple conviction: that every Nigerian youth deserves the opportunity to thrive, notwithstanding their background. What began as a small empoerment, grows into a massive scheme of societal transformation in Nigeria. The organisation has grown into a multi-programme organisation reaching many vulnerable people.",
   mission:
     "To invest in people and communities across Nigeria by funding education, health, and economic opportunities that create lasting, generational change.",
   vision:
