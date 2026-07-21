@@ -1,4 +1,4 @@
-"use clieint";
+// "use clieint";
 import Link from "next/link";
 import { stories } from "@/data/site";
 import { ArrowRight, MapPin } from "lucide-react";

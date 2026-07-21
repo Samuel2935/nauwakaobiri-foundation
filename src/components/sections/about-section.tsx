@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import Link from "next/link";
 import { about, siteConfig } from "@/data/site";
 import { ArrowRight, CheckCircle2 } from "lucide-react";

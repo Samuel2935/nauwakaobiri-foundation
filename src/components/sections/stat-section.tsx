@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import { stats } from "@/data/site";
 
 export default function StatsStrip() {

@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import Link from "next/link";
 import { programmeSteps, siteConfig } from "@/data/site";
 import { ArrowRight } from "lucide-react";

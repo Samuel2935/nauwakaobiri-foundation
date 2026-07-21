@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import Link from "next/link";
 import { pillars } from "@/data/site";
 import { BookOpen, HeartPulse, TrendingUp, Users, ArrowRight } from "lucide-react";

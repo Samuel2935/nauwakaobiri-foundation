@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import Link from "next/link";
 import { newsItems } from "@/data/site";
 import { ArrowRight, Calendar } from "lucide-react";

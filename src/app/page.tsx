@@ -1,13 +1,13 @@
 "use client";
-import Hero from "@/components/sections/Hero";
-import StatsStrip from "@/components/sections/StatsStrip";
-import AboutSection from "@/components/sections/AboutSection";
-import PillarsSection from "@/components/sections/PillarsSection";
-import ProgrammeSection from "@/components/sections/ProgrammeSection";
-import StoriesSection from "@/components/sections/StoriesSection";
-import DonateBanner from "@/components/sections/DonateBanner";
-import NewsSection from "@/components/sections/NewsSection";
-import PartnersSection from "@/components/sections/PartnersSection";
+import Hero from "@/components/sections/hero-section";
+import StatsStrip from "@/components/sections/stat-section";
+import AboutSection from "@/components/sections/about-section";
+import PillarsSection from "@/components/sections/pillar-section";
+import ProgrammeSection from "@/components/sections/program-section";
+import StoriesSection from "@/components/sections/stories-section";
+import DonateBanner from "@/components/sections/donate-banner";
+import NewsSection from "@/components/sections/news-section";
+import PartnersSection from "@/components/sections/partner-section";
 
 export default function HomePage() {
   return (
