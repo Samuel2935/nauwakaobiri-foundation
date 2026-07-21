@@ -6,7 +6,7 @@
 import { X } from "lucide-react";
 
 export const siteConfig = {
-  name: "N'Uwakaobiri Foundation",
+  name: "Nuwakobiri Foundation",
   shortName: "NUF",
   logo: "/images/nuwakaobirifdn-logo.jpeg",
   unity: "/images/nuwaphoto1.jpeg",
@@ -17,7 +17,7 @@ export const siteConfig = {
   power5: "/images/power5.jpg",
   tagline: "Rooted in Youths Empowerment.",
   description:
-    "The N'Uwakaobiri Foundation is a non-profit organisation dedicated to empowering the youths through education, healthcare, and economic opportunity across Nigeria and West Africa.",
+    "The Nuwakobiri Foundation is a non-profit organisation dedicated to empowering the youths through education, healthcare, and economic opportunity across Nigeria and West Africa.",
   email: "nuwakaobirifoundation@gmail.com",
   phone: "+234 703 843 3864",
   address: "C036 Sokoto Plaza, Tradefair International Complex, Lagos, Nigeria",
@@ -238,7 +238,7 @@ export const partners = [
 // ─── ABOUT ─────────────────────────────────────────────────────
 export const about = {
   story:
-    "N'Uwakaobiri Foundation — was founded in 2021 by Honourable Chief Chinedu Samuel Edeh with a simple conviction: that every Nigerian youth deserves the opportunity to thrive, notwithstanding their background. What began as a small empoerment, grows into a massive scheme of societal transformation in Nigeria. The organisation has grown into a multi-programme organisation reaching many vulnerable people.",
+    "Nuwakobiri Foundation — was founded in 2021 by Honourable Chief Chinedu Samuel Edeh with a simple conviction: that every Nigerian youth deserves the opportunity to thrive, notwithstanding their background. What began as a small empoerment, grows into a massive scheme of societal transformation in Nigeria. The organisation has grown into a multi-programme organisation reaching many vulnerable people.",
   mission:
     "To invest in people and communities across Nigeria by funding education, health, and economic opportunities that create lasting, generational change.",
   vision:

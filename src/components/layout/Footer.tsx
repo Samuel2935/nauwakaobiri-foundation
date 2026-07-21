@@ -33,8 +33,8 @@ export default function Footer() {
               <Image src={siteConfig.logo} alt={siteConfig.shortName} width={40} height={40} className="rounded-full" />
             </div>
             <div>
-              <div className="text-white font-bold text-sm leading-tight font-display">N'UWAKAOBIRI</div>
-              <div className="text-emerald-400 text-xs tracking-wide">Foundation</div>
+              <div className="text-white font-bold text-sm leading-tight font-display">NUWAKOBIRI</div>
+              <div className="text-emerald-400 text-xs tracking-wide">Youth Foundation</div>
             </div>
           </div>
           <p className="text-sm leading-relaxed mb-6">
