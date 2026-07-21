@@ -20,7 +20,7 @@ export const siteConfig = {
     "The N'Uwakaobiri Foundation is a non-profit organisation dedicated to empowering the youths through education, healthcare, and economic opportunity across Nigeria and West Africa.",
   email: "nuwakaobirifoundation@gmail.com",
   phone: "+234 703 843 3864",
-  address: "BA033 Sokoto Plaza, 1st Floor, International Tradefair Complex, Lagos, Nigeria",
+  address: "C036 Sokoto Plaza, Tradefair International Complex, Lagos, Nigeria",
   founded: "2021",
   socials: {
     // twitter: "https://twitter.com/NUFoundation",
