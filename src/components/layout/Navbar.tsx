@@ -45,10 +45,10 @@ export default function Navbar() {
           </div>
           <div className="hidden sm:block">
             <div className="font-display font-bold text-gray-900 text-sm leading-tight">
-              N'UWAKAOBIRI
+              NUWAKOBIRI
             </div>
             <div className="text-xs text-emerald-700 font-medium tracking-wide">
-              Foundation
+              Youth Foundation
             </div>
           </div>
         </Link>
