@@ -42,7 +42,7 @@ export default function Hero() {
 
           {/* Sub */}
           <p className="text-gray-200 text-lg md:text-xl leading-relaxed max-w-xl mb-10">
-            The N'Uwakaobiri Foundation empowers Nigerians youths through
+            The Nuwakobiri Foundation empowers Nigerians youths through
             education, healthcare, and economic opportunity — building futures
             from the ground up.
           </p>
