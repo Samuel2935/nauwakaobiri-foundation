@@ -250,31 +250,31 @@ export const about = {
 // ─── TEAM / LEADERSHIP ─────────────────────────────────────────
 export const leadership = [
   {
-    name: "Dr. Emeka Obi",
+    name: "Hon. Chief Chinedu Samuel Edeh a.k.a Nuwakobiri",
     title: "Founder & Board Chairman",
-    bio: "Dr. Obi is a physician and entrepreneur who has spent 25 years building institutions across healthcare and finance in Nigeria.",
-    image: "/images/team/emeka.jpg",
-    initials: "EO",
+    bio: "Hon. Chief Chinedu Samuel Edeh is a renowned entrepreneur who has spent years building institutions that empower communities and finance in Nigeria.",
+    image: "/images/chinedu1.jpeg",
+    initials: "CE",
   },
   {
     name: "Chief (Mrs.) Ngozi Obi",
     title: "Co-Founder & Executive Director",
     bio: "A former World Bank consultant and education advocate, Ngozi leads the Foundation's strategic direction and programme delivery.",
-    image: "/images/team/ngozi.jpg",
+    image: "/images/nuwaphoto1.jpeg",
     initials: "NO",
   },
   {
     name: "Tunde Adeyemi",
     title: "Director of Programmes",
     bio: "Tunde brings 15 years of development sector experience managing grants and community programmes across sub-Saharan Africa.",
-    image: "/images/team/tunde.jpg",
+    image: "/images/chinedu2.jpeg",
     initials: "TA",
   },
   {
     name: "Dr. Samuel Ezeh",
     title: "Media & Communications Lead",
     bio: "AN IT specialist with a passion for storytelling and digital communication.",
-    image: "/images/team/samuel.jpg",
+    image: "/images/chinedu1.jpeg",
     initials: "SE",
   },
 ];
