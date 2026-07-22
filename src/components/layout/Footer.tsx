@@ -38,7 +38,7 @@ export default function Footer() {
             </div>
           </div>
           <p className="text-sm leading-relaxed mb-6">
-            Rooted in community. Rising together. We invest in people across Nigeria through education, health, and economic empowerment.
+          Rooted in Youth Empowerment. Rising together. We invest in people across Nigeria through education, health, and economic empowerment.
           </p>
           {/* Socials */}
           <div className="flex gap-3">

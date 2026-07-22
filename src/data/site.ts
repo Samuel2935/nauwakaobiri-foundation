@@ -18,7 +18,7 @@ export const siteConfig = {
   tagline: "Rooted in Youths Empowerment.",
   description:
     "The Nuwakobiri Foundation is a non-profit organisation dedicated to empowering the youths through education, healthcare, and economic opportunity across Nigeria and West Africa.",
-  email: "nuwakaobirifoundation@gmail.com",
+  email: "nuwaka=obirifoundation@gmail.com",
   phone: "+234 703 843 3864",
   address: "C036 Sokoto Plaza, Tradefair International Complex, Lagos, Nigeria",
   founded: "2021",
