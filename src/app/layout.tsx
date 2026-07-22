@@ -21,20 +21,14 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: `${siteConfig.name} — ${siteConfig.tagline}`,
+    default: `${siteConfig.name} — ${siteConfig.domain}`,
     template: `%s | ${siteConfig.name}`,
+  },
+  icons: {
+    icon: siteConfig.icon,
   },
   description: siteConfig.description,
   keywords: [
-    "foundation Nigeria",
-    "community development",
-    "education empowerment",
-    "healthcare Nigeria",
-    "micro grants",
-    "non-profit Nigeria",
-    "N'Uwakaobiri",
-    "youth empowerment",
-    "social impact",
     "philanthropy Nigeria",
     "grassroots development",
     "Nuwakobiri Foundation",
@@ -76,7 +70,7 @@ export const metadata: Metadata = {
     description: siteConfig.description,
     type: "website",
     locale: "en_NG",
-    siteName: siteConfig.name,
+    siteName: siteConfig.domain,
   },
   twitter: {
     card: "summary_large_image",

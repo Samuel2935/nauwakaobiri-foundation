@@ -16,6 +16,8 @@ export const siteConfig = {
   power3: "/images/power3.webp",
   power5: "/images/power5.jpg",
   tagline: "Rooted in Youths Empowerment.",
+  domain: "nuwakobirifoundation.org",
+  icon: "/images/nuwakaobirifdn-logo.jpeg",
   description:
     "The Nuwakobiri Foundation is a non-profit organisation dedicated to empowering the youths through education, healthcare, and economic opportunity across Nigeria and West Africa.",
   email: "nuwakobirifoundation@gmail.com",
