@@ -82,12 +82,12 @@ export const navLinks = [
   },
   {
     label: "Media",
-    href: "#media",
+    href: "/media",
     children: [
-      { label: "News & Stories", href: "#success-stories" },
-      { label: "Press Releases", href: "#media" },
-      { label: "Gallery", href: "#gallery" },
-      { label: "Podcasts", href: "#podcasts" },
+      { label: "News & Stories", href: "/success-stories" },
+      { label: "Press Releases", href: "/media" },
+      { label: "Gallery", href: "/gallery" },
+      { label: "Podcasts", href: "/podcast" },
     ],
   },
 ];

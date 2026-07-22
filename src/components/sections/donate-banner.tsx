@@ -6,7 +6,7 @@ export default function DonateBanner() {
   return (
     <section
       id="donate"
-      className="relative overflow-hidden bg-emerald-900 py-24"
+      className="relative overflow-hidden bg-emerald-900 py-24 mt-4"
     >
       {/* Decorative pattern */}
       <div
@@ -46,7 +46,7 @@ export default function DonateBanner() {
             />
           </Link>
           <Link
-            href="/get-involved/partner"
+            href="/donate"
             className="inline-flex items-center gap-2 border-2 border-white/40 text-white font-bold text-sm px-8 py-4 hover:border-white hover:bg-white/10 transition-colors tracking-wide"
           >
             Become a Partner

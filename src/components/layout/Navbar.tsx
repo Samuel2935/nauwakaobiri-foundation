@@ -90,13 +90,13 @@ export default function Navbar() {
         {/* CTA */}
         <div className="hidden lg:flex items-center gap-3">
           <Link
-            href="#"
+            href="/about"
             className="bg-emerald-700 text-white text-sm font-bold px-5 py-2.5 hover:bg-emerald-800 transition-colors tracking-wide"
           >
             Apply Now
           </Link>
           <Link
-            href="#donate"
+            href="/donate"
             className="border-2 border-emerald-700 text-emerald-700 text-sm font-bold px-5 py-2 hover:bg-emerald-700 hover:text-white transition-colors tracking-wide"
           >
             Donate
@@ -142,7 +142,7 @@ export default function Navbar() {
             </div>
           ))}
           <div className="pt-4 flex flex-col gap-3">
-            <Link href="/get-involved/apply" className="bg-emerald-700 text-white text-sm font-bold px-5 py-3 text-center">Apply Now</Link>
+            <Link href="/donate" className="bg-emerald-700 text-white text-sm font-bold px-5 py-3 text-center">Apply Now</Link>
             <Link href="/donate" className="border-2 border-emerald-700 text-emerald-700 text-sm font-bold px-5 py-3 text-center">Donate</Link>
           </div>
         </div>

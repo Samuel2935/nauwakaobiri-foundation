@@ -5,7 +5,7 @@ import { ArrowRight, MapPin } from "lucide-react";
 
 export default function FoundersSection() {
   return (
-    <section id="success-stories" className="py-24 bg-gray-50">
+    <section id="founders" className="py-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14">
           <div>
@@ -18,7 +18,7 @@ export default function FoundersSection() {
             <div className="w-14 h-1 bg-emerald-600" />
           </div>
           <Link
-            href="/impact/stories"
+            href="/"
             className="inline-flex items-center gap-2 text-emerald-700 font-bold text-sm uppercase tracking-widest group hover:text-emerald-900 shrink-0"
           >
             All Stories
@@ -76,7 +76,7 @@ export default function FoundersSection() {
                     </span>
                   </div>
                   <Link
-                    href={`/impact/stories/${leader.title.toLowerCase().replace(/\s+/g, "-")}`}
+                    href={`/success-stories/${leader.title.toLowerCase().replace(/\s+/g, "-")}`}
                     className="text-emerald-700 text-xs font-bold hover:text-emerald-900 transition-colors"
                   >
                     Read →
