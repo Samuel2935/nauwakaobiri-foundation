@@ -108,7 +108,7 @@ export default function Footer() {
               />
               <button
                 type="submit"
-                className="bg-emerald-700 text-white text-xs font-bold px-4 py-2 hover:bg-emerald-600 transition-colors whitespace-nowrap"
+                className=" bg-emerald-700 text-white text-xs font-bold px-4 py-2 hover:bg-emerald-600 transition-colors whitespace-nowrap"
               >
                 Subscribe
               </button>

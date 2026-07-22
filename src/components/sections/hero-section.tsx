@@ -41,7 +41,7 @@ export default function Hero() {
           </h1>
 
           {/* Sub */}
-          <p className="text-gray-200 text-lg md:text-lg leading-relaxed max-w-xl mb-10">
+          <p className="text-gray-200 text-lg md:text-sm leading-relaxed max-w-xl mb-10">
             The Nuwakobiri Foundation is a pipeline for social change, dedicated to empowering youth, fostering community development, and driving impactful philanthropy across Nigeria and beyond. We believe in the power of collective action to create a brighter future for all.
             
           </p>
