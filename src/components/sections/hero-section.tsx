@@ -42,9 +42,8 @@ export default function Hero() {
 
           {/* Sub */}
           <p className="text-gray-200 text-lg md:text-xl leading-relaxed max-w-xl mb-10">
-            The Nuwakobiri Foundation empowers Nigerians youths through
-            education, healthcare, and economic opportunity — building futures
-            from the ground up.
+            The Nuwakobiri Foundation is a pipeline for social change, dedicated to empowering youth, fostering community development, and driving impactful philanthropy across Nigeria and beyond. We believe in the power of collective action to create a brighter future for all.
+            
           </p>
 
           {/* CTAs */}
