@@ -43,7 +43,7 @@ export const navLinks = [
     href: "/about",
     children: [
       { label: "Our Story", href: "" },
-      { label: "Mission & Vision", href: "" },
+      { label: "Mission & Vision", href: "/about-us" },
       { label: "Our Founders", href: "/founders" },
       { label: "Leadership & Board", href: "/founders" },
       { label: "Our Philosophy", href: "" },
@@ -239,10 +239,20 @@ export const partners = [
 
 // ─── ABOUT ─────────────────────────────────────────────────────
 export const about = {
-  story:
-    "Nuwakobiri Foundation — was founded in 2021 by Honourable Chief Chinedu Samuel Edeh with a simple conviction: that every Nigerian youth deserves the opportunity to thrive, notwithstanding their background. What began as a small empoerment, grows into a massive scheme of societal transformation in Nigeria. The organisation has grown into a multi-programme organisation reaching many vulnerable people.",
+  story: `
+
+Our foundation was established with a simple but powerful belief: every person deserves hope, dignity, and the opportunity to build a better future. We recognize that many individuals and families face challenges such as poverty, limited access to education, inadequate healthcare, and social inequality. Rather than stand by, we chose to take action.
+
+Our mission is to serve with compassion, integrity, and accountability while creating sustainable solutions that transform lives and strengthen communities. We believe that meaningful change happens when people come together with a shared purpose to uplift those in need.
+
+Every project we undertake is driven by a commitment to empower vulnerable individuals, support children and families, promote education, improve healthcare access, and encourage self-reliance. We are dedicated to ensuring that every contribution, partnership, and act of kindness makes a lasting impact.
+
+I invite you to join us on this journey. Whether you choose to volunteer, donate, partner with us, or advocate for our cause, your support helps bring hope where it is needed most. Together, we can create stronger communities and a brighter future for generations to come.
+
+Thank you for believing in our vision and for being part of this mission to change lives.
+`,
   mission:
-    "To invest in people and communities across Nigeria by funding education, health, and economic opportunities that create lasting, generational change.",
+    "Our mission is to bring hope, restore dignity, and create lasting opportunities for vulnerable individuals and communities through compassion, service, and sustainable development.",
   vision:
     "A Nigeria where every person — regardless of where they were born — can access the resources they need to live a dignified, prosperous life.",
   philosophy:

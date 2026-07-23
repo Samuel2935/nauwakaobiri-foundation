@@ -33,10 +33,10 @@ export default function StoriesSection() {
           {stories.map((story) => (
             <article
               key={story.id}
-              className="bg-white group hover:shadow-xl transition-shadow duration-300 overflow-hidden flex flex-col"
+              className="bg-white group rounded-md hover:shadow-xl transition-shadow duration-300 overflow-hidden flex flex-col"
             >
               {/* Image */}
-              <div className="h-52 overflow-hidden bg-emerald-100 relative">
+              <div className="h-52 overflow-hidden bg-emerald-100 relative rounded-md">
                 <img
                   src={story.image}
                   alt={story.name}
@@ -49,7 +49,7 @@ export default function StoriesSection() {
                   }}
                 />
                 {/* Tag */}
-                <div className="absolute top-4 left-4 bg-emerald-700 text-white text-xs font-bold px-3 py-1 uppercase tracking-wide">
+                <div className="absolute top-1 left-1 bg-emerald-700 rounded-sm text-white text-xs font-bold px-3 py-1 uppercase tracking-wide">
                   {story.programme}
                 </div>
               </div>

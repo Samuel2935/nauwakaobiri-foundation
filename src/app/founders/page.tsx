@@ -70,10 +70,10 @@ export default function FoundersSection() {
           {leadership.map((leader) => (
             <article
               key={leader.name}
-              className="group flex flex-col overflow-hidden bg-white transition-shadow duration-300 hover:shadow-xl"
+              className="group flex flex-col overflow-hidden rounded-md bg-white transition-shadow duration-300 hover:shadow-xl"
             >
               {/* Image */}
-              <div className="relative h-64 overflow-hidden bg-emerald-100">
+              <div className="relative h-64 overflow-hidden rounded-md bg-emerald-100">
                 <LeaderImage
                   src={leader.image}
                   alt={leader.name}

@@ -28,7 +28,7 @@ export default function AboutSection() {
               />
             </div>
             {/* Floating card */}
-            <div className="absolute -bottom-6 -right-6 bg-emerald-800 text-white p-6 max-w-[200px] hidden md:block rounded-md">
+            <div className="absolute -bottom-32 -right-8 bg-emerald-800 text-white p-6 max-w-[200px] hidden md:block rounded-md">
               <div className="font-display font-black text-4xl leading-none mb-1">
                 {siteConfig.founded}
               </div>
@@ -54,7 +54,7 @@ export default function AboutSection() {
             </h2>
             <div className="w-14 h-1 bg-emerald-600 mb-8" />
 
-            <p className="text-gray-600 text-base leading-relaxed mb-5">
+            <p className="text-gray-600 rounded-md bg-yellow-100 p-2 text-sm leading-relaxed mb-5">
               {about.story}
             </p>
 
@@ -83,7 +83,7 @@ export default function AboutSection() {
             </ul>
 
             <Link
-              href="/about"
+              href="/about-us"
               className="inline-flex items-center gap-2 text-emerald-700 font-bold text-sm uppercase tracking-widest group hover:text-emerald-900 transition-colors"
             >
               More About Us

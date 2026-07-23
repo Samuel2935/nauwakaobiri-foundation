@@ -22,7 +22,7 @@ export default function ProgrammeSection() {
                 <div key={step.step} className="flex gap-5 group">
                   {/* Step number + connector */}
                   <div className="flex flex-col items-center">
-                    <div className="w-10 h-10 bg-emerald-700 text-white flex items-center justify-center font-display font-black text-sm shrink-0 group-hover:bg-emerald-600 transition-colors">
+                    <div className="w-10 h-10 bg-emerald-700 rounded-sm text-white flex items-center justify-center font-display font-black text-sm shrink-0 group-hover:bg-emerald-600 transition-colors">
                       {step.step}
                     </div>
                     {i < programmeSteps.length - 1 && (
@@ -37,14 +37,6 @@ export default function ProgrammeSection() {
                 </div>
               ))}
             </div>
-
-            <Link
-              href="/get-involved/apply"
-              className="inline-flex items-center gap-2 bg-emerald-700 text-white font-bold text-sm px-7 py-4 hover:bg-emerald-600 transition-colors tracking-wide group mt-2"
-            >
-              Apply Now
-              <ArrowRight size={15} className="group-hover:translate-x-1 transition-transform" />
-            </Link>
           </div>
 
           {/* Image + quote */}
@@ -62,7 +54,7 @@ export default function ProgrammeSection() {
               className="w-full h-[560px] object-cover rounded-md"
             />
             {/* Quote overlay */}
-            <div className="absolute bottom-0 left-0 right-0 bg-emerald-900/95 p-8">
+            <div className="absolute bottom-0 left-0 right-0 bg-emerald-900/95 rounded-md p-8">
               <p className="text-white text-base leading-relaxed italic mb-4">
                 &ldquo;The programme didn't just give me capital — it gave me the knowledge and network to use it well.&rdquo;
               </p>

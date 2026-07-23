@@ -37,7 +37,7 @@ export default function PillarsSection() {
               </div>
 
               {/* Icon */}
-              <div className="w-12 h-12 bg-emerald-700 text-white flex items-center justify-center mb-6 group-hover:bg-emerald-600 transition-colors">
+              <div className="w-12 h-12 bg-emerald-700 rounded-sm text-white flex items-center justify-center mb-6 group-hover:bg-emerald-600 transition-colors">
                 {iconMap[pillar.icon]}
               </div>
 
