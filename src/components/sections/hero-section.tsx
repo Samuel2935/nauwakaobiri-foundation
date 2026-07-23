@@ -72,7 +72,7 @@ export default function Hero() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 rounded-md text-white text-sm font-semibold group"
             >
-              <span className="w-10 h-10 rounded-full border-2 rounded-md border-white/40 flex items-center justify-center transition-colors group-hover:border-emerald-400 group-hover:bg-emerald-400/10">
+              <span className="w-10 h-10 border-2 rounded-md border-white/40 flex items-center justify-center transition-colors group-hover:border-emerald-400 group-hover:bg-emerald-400/10">
                 <Play size={13} className="ml-0.5" />
               </span>
               Watch Our Story
