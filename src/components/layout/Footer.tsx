@@ -49,7 +49,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={key}
-                className="w-8 h-8 border border-gray-700 flex items-center justify-center text-gray-400 hover:border-emerald-600 hover:text-emerald-400 transition-colors"
+                className="w-8 h-8 border border-gray-700 rounded-md flex items-center justify-center text-gray-400 hover:border-emerald-600 hover:text-emerald-400 transition-colors"
               >
                 {socialIcons[key]}
               </a>
