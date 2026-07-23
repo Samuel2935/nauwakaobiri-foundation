@@ -11,6 +11,14 @@ const videos = [
     id: "uoUn248YK3Y",
     title: "Episode 3",
   },
+  {
+    id: "C2eb7LhkM9g",
+    title: "Episode 4",
+  },
+  {
+    id: "8WmMUWqbg4k",
+    title: "Episode 5",
+  },
 ];
 
 export default function PodcastPage() {
