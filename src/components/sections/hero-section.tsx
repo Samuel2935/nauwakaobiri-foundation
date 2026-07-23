@@ -50,7 +50,7 @@ export default function Hero() {
           <div className="flex flex-wrap gap-4 mb-16">
             <Link
               href="#volunteer"
-              className="inline-flex items-center gap-2 bg-emerald-600 text-white font-bold text-sm px-7 py-4 hover:bg-emerald-500 transition-colors tracking-wide group"
+              className="inline-flex items-center gap-2 rounded-md bg-emerald-600 text-white font-bold text-sm px-7 py-4 hover:bg-emerald-500 transition-colors tracking-wide group"
             >
               Apply to a Programme
               <ArrowRight
@@ -62,7 +62,7 @@ export default function Hero() {
               target="_blank"
               rel="noopener noreferrer"
               href={siteConfig.socials.tiktok}
-              className="inline-flex items-center gap-2 border-2 border-white/40 text-white font-bold text-sm px-7 py-4 hover:border-white hover:bg-white/10 transition-colors tracking-wide"
+              className="inline-flex items-center gap-2 rounded-md border-2 border-white/40 text-white font-bold text-sm px-7 py-4 hover:border-white hover:bg-white/10 transition-colors tracking-wide"
             >
               Our Story
             </Link>
@@ -70,9 +70,9 @@ export default function Hero() {
               href={siteConfig.socials.youtube}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 text-white text-sm font-semibold group"
+              className="inline-flex items-center gap-3 rounded-md text-white text-sm font-semibold group"
             >
-              <span className="w-10 h-10 rounded-full border-2 border-white/40 flex items-center justify-center transition-colors group-hover:border-emerald-400 group-hover:bg-emerald-400/10">
+              <span className="w-10 h-10 rounded-full border-2 rounded-md border-white/40 flex items-center justify-center transition-colors group-hover:border-emerald-400 group-hover:bg-emerald-400/10">
                 <Play size={13} className="ml-0.5" />
               </span>
               Watch Our Story
