@@ -29,7 +29,7 @@ export default function PillarsSection() {
           {pillars.map((pillar, i) => (
             <div
               key={pillar.id}
-              className="bg-white border border-gray-100 p-8 group hover:border-emerald-200 hover:shadow-lg transition-all duration-300 relative overflow-hidden"
+              className="bg-white border border-gray-100 p-8 group rounded-md hover:border-emerald-200 hover:shadow-lg transition-all duration-300 relative overflow-hidden"
             >
               {/* Background number */}
               <div className="absolute top-4 right-4 font-display font-black text-7xl text-gray-50 select-none leading-none group-hover:text-emerald-50 transition-colors">
