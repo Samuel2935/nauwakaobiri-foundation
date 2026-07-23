@@ -91,13 +91,13 @@ export default function Navbar() {
         <div className="hidden lg:flex items-center gap-3">
           <Link
             href="/about"
-            className="bg-emerald-700 text-white text-sm font-bold px-5 py-2.5 hover:bg-emerald-800 transition-colors tracking-wide"
+            className="bg-emerald-700 rounded-md text-white text-sm font-bold px-5 py-2.5 hover:bg-emerald-800 transition-colors tracking-wide"
           >
             Apply Now
           </Link>
           <Link
             href="/donate"
-            className="border-2 border-emerald-700 text-emerald-700 text-sm font-bold px-5 py-2 hover:bg-emerald-700 hover:text-white transition-colors tracking-wide"
+            className="border-2 border-emerald-700 rounded-md text-emerald-700 text-sm font-bold px-5 py-2 hover:bg-emerald-700 hover:text-white transition-colors tracking-wide"
           >
             Donate
           </Link>
@@ -142,8 +142,8 @@ export default function Navbar() {
             </div>
           ))}
           <div className="pt-4 flex flex-col gap-3">
-            <Link href="/donate" className="bg-emerald-700 text-white text-sm font-bold px-5 py-3 text-center">Apply Now</Link>
-            <Link href="/donate" className="border-2 border-emerald-700 text-emerald-700 text-sm font-bold px-5 py-3 text-center">Donate</Link>
+            <Link href="/donate" className="bg-emerald-700 rounded-md text-white text-sm font-bold px-5 py-3 text-center">Apply Now</Link>
+            <Link href="/donate" className="border-2 border-emerald-700 rounded-md text-emerald-700 text-sm font-bold px-5 py-3 text-center">Donate</Link>
           </div>
         </div>
       )}

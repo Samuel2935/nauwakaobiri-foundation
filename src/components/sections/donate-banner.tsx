@@ -34,7 +34,7 @@ export default function DonateBanner() {
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           <Link
             href="/donate"
-            className="inline-flex items-center gap-2 bg-white text-emerald-900 font-bold text-sm px-8 py-4 hover:bg-emerald-50 transition-colors tracking-wide group"
+            className="inline-flex items-center gap-2 rounded-md bg-white text-emerald-900 font-bold text-sm px-8 py-4 hover:bg-emerald-50 transition-colors tracking-wide group"
           >
             Donate Now
             <ArrowRight
@@ -44,7 +44,7 @@ export default function DonateBanner() {
           </Link>
           <Link
             href="/donate"
-            className="inline-flex items-center gap-2 border-2 border-white/40 text-white font-bold text-sm px-8 py-4 hover:border-white hover:bg-white/10 transition-colors tracking-wide"
+            className="inline-flex items-center gap-2 border-2 rounded-md border-white/40 text-white font-bold text-sm px-8 py-4 hover:border-white hover:bg-white/10 transition-colors tracking-wide"
           >
             Become a Partner
           </Link>
