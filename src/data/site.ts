@@ -40,13 +40,13 @@ export const siteConfig = {
 export const navLinks = [
   {
     label: "About",
-    href: "#about",
+    href: "/about",
     children: [
-      { label: "Our Story", href: "#success-stories" },
-      { label: "Mission & Vision", href: "#mission" },
-      { label: "Our Founders", href: "#founders" },
-      { label: "Leadership & Board", href: "#leadership" },
-      { label: "Our Philosophy", href: "#philosophy" },
+      { label: "Our Story", href: "" },
+      { label: "Mission & Vision", href: "" },
+      { label: "Our Founders", href: "/founders" },
+      { label: "Leadership & Board", href: "/founders" },
+      { label: "Our Philosophy", href: "" },
     ],
   },
   {
@@ -74,9 +74,9 @@ export const navLinks = [
     label: "volunteer",
     href: "#volunteer",
     children: [
-      { label: "Volunteer", href: "#pillars" },
-      { label: "Partner With Us", href: "#partner" },
-      { label: "Apply to a Programme", href: "#apply" },
+      { label: "Volunteer", href: "/" },
+      { label: "Partner With Us", href: "/" },
+      { label: "Apply to a Programme", href: "/" },
       // { label: "Mentorship", href: "/get-involved/mentor" },
     ],
   },
@@ -84,7 +84,7 @@ export const navLinks = [
     label: "Media",
     href: "/media",
     children: [
-      { label: "News & Stories", href: "/success-stories" },
+      { label: "News & Stories", href: "/stories" },
       { label: "Press Releases", href: "/media" },
       { label: "Gallery", href: "/gallery" },
       { label: "Podcasts", href: "/podcast" },
@@ -110,7 +110,7 @@ export const pillars = [
     title: "Education for All",
     summary:
       "We provide scholarships, school infrastructure support, and digital literacy training to ensure every child has access to quality education — regardless of background.",
-    cta: { label: "Learn More", href: "/programmes/education" },
+    cta: { label: "Learn More", href: "/" },
   },
   {
     id: "healthcare",
@@ -126,7 +126,7 @@ export const pillars = [
     title: "Economic Empowerment",
     summary:
       "We fund micro-enterprises, run vocational training centres, and connect young entrepreneurs with mentors, capital, and markets to build lasting livelihoods.",
-    cta: { label: "Learn More", href: "/programmes/economic" },
+    cta: { label: "Learn More", href: "/" },
   },
   {
     id: "women",
@@ -134,7 +134,7 @@ export const pillars = [
     title: "Women & Youth",
     summary:
       "From leadership academies to safe spaces and seed grants, we invest in women and young people as the engines of community transformation.",
-    cta: { label: "Learn More", href: "/programmes/women-youth" },
+    cta: { label: "Learn More", href: "/" },
   },
 ];
 

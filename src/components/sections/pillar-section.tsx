@@ -12,7 +12,7 @@ const iconMap: Record<string, React.ReactNode> = {
 
 export default function PillarsSection() {
   return (
-    <section id="pillars" className="py-24 bg-gray-50">
+    <section  className="py-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6">
         <div className="max-w-xl mb-14">
           <p className="text-emerald-700 text-xs font-bold uppercase tracking-[0.2em] mb-4">What We Do</p>

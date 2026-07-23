@@ -8,7 +8,7 @@ import StoriesSection from "@/components/sections/stories-section";
 import DonateBanner from "@/components/sections/donate-banner";
 import NewsSection from "@/components/sections/news-section";
 import PartnersSection from "@/components/sections/partner-section";
-import FoundersSection from "@/components/sections/founders";
+import FoundersSection from "@/app/founders/page";
 
 export default function HomePage() {
   return (

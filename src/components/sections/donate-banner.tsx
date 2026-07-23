@@ -4,10 +4,7 @@ import { Heart, ArrowRight } from "lucide-react";
 
 export default function DonateBanner() {
   return (
-    <section
-      id="donate"
-      className="relative overflow-hidden bg-emerald-900 py-24 mt-4"
-    >
+    <section className="relative overflow-hidden bg-emerald-900 py-24 mt-4">
       {/* Decorative pattern */}
       <div
         className="absolute inset-0 opacity-5"

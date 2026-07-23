@@ -3,7 +3,7 @@ import { partners } from "@/data/site";
 
 export default function PartnersSection() {
   return (
-    <section id="volunteer" className="py-16 bg-gray-50 border-t border-gray-100">
+    <section className="py-16 bg-gray-50 border-t border-gray-100">
       <div className="max-w-7xl mx-auto px-6">
         <p className="text-center text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-10">
           Trusted By Our Partners
