@@ -11,7 +11,9 @@ export default function ProgrammeSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Steps */}
           <div>
-            <p className="text-emerald-700 text-xs font-bold uppercase tracking-[0.2em] mb-4">The Process</p>
+            <p className="text-emerald-700 text-xs font-bold uppercase tracking-[0.2em] mb-4">
+              The Process
+            </p>
             <h2 className="font-display font-black text-gray-900 text-4xl md:text-5xl leading-tight mb-2">
               How Our Programmes Work
             </h2>
@@ -31,8 +33,12 @@ export default function ProgrammeSection() {
                   </div>
                   {/* Text */}
                   <div className="pb-8">
-                    <h3 className="font-display font-bold text-gray-900 text-base mb-2">{step.title}</h3>
-                    <p className="text-gray-500 text-sm leading-relaxed">{step.body}</p>
+                    <h3 className="font-display font-bold text-gray-900 text-base mb-2">
+                      {step.title}
+                    </h3>
+                    <p className="text-gray-500 text-sm leading-relaxed">
+                      {step.body}
+                    </p>
                   </div>
                 </div>
               ))}
@@ -41,11 +47,6 @@ export default function ProgrammeSection() {
 
           {/* Image + quote */}
           <div className="relative ">
-            {/* <img
-              src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=800&q=80"
-              alt="Programme participants"
-              className="w-full h-[560px] object-cover"
-            /> */}
             <Image
               src={siteConfig.power5}
               alt="Programme participants"
@@ -56,13 +57,20 @@ export default function ProgrammeSection() {
             {/* Quote overlay */}
             <div className="absolute bottom-0 left-0 right-0 bg-emerald-900/95 rounded-md p-8">
               <p className="text-white text-base leading-relaxed italic mb-4">
-                &ldquo;The programme didn't just give me capital — it gave me the knowledge and network to use it well.&rdquo;
+                &ldquo;The programme didn't just give me capital — it gave me
+                the knowledge and network to use it well.&rdquo;
               </p>
               <div className="flex items-center gap-3">
-                <div className="w-8 h-8 rounded-full bg-emerald-600 flex items-center justify-center text-white text-xs font-bold">CO</div>
+                <div className="w-8 h-8 rounded-full bg-emerald-600 flex items-center justify-center text-white text-xs font-bold">
+                  CO
+                </div>
                 <div>
-                  <div className="text-white text-sm font-bold">Chisom Okafor</div>
-                  <div className="text-emerald-300 text-xs">2023 Beneficiary, Enugu State</div>
+                  <div className="text-white text-sm font-bold">
+                    Chisom Okafor
+                  </div>
+                  <div className="text-emerald-300 text-xs">
+                    2023 Beneficiary, Enugu State
+                  </div>
                 </div>
               </div>
             </div>

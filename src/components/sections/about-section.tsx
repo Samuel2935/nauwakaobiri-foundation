@@ -24,7 +24,7 @@ export default function AboutSection() {
                 alt={siteConfig.shortName}
                 width={800}
                 height={520}
-                className="w-full h-[520px] object-cover"
+                className="w-full h-[520px] object-cover rounded-md"
               />
             </div>
             {/* Floating card */}
@@ -58,7 +58,7 @@ export default function AboutSection() {
               {about.story}
             </p>
 
-            <div className="bg-emerald-50 border-l-4 border-emerald-600 p-5 mb-8">
+            <div className="bg-emerald-50 rounded-md border-l-4 border-emerald-600 p-5 mb-8">
               <p className="text-sm text-emerald-900 font-semibold leading-relaxed italic">
                 &ldquo;{about.mission}&rdquo;
               </p>
