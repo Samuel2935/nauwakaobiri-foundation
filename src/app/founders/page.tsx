@@ -80,9 +80,9 @@ export default function FoundersSection() {
                   initials={leader.initials}
                 />
 
-                <div className="absolute left-4 top-4 bg-emerald-700 px-3 py-1 text-xs font-bold uppercase tracking-wide text-white">
+                {/* <div className="absolute left-4 top-4 bg-emerald-700 px-3 py-1 text-xs font-bold uppercase tracking-wide text-white">
                   {leader.title}
-                </div>
+                </div> */}
               </div>
 
               {/* Content */}

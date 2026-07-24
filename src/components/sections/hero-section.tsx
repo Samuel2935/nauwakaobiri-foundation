@@ -49,10 +49,12 @@ export default function Hero() {
           {/* CTAs */}
           <div className="flex flex-wrap gap-4 mb-16">
             <Link
-              href="#volunteer"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://chat.whatsapp.com/ES9douL6lgZDujpLr13pEm?s=cl&p=i&mlu=0&amv=2"
               className="inline-flex items-center gap-2 rounded-md bg-emerald-600 text-white font-bold text-sm px-7 py-4 hover:bg-emerald-500 transition-colors tracking-wide group"
             >
-              Apply to a Programme
+              Join the Movement
               <ArrowRight
                 size={16}
                 className="group-hover:translate-x-1 transition-transform"
