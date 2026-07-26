@@ -10,7 +10,7 @@ export default function NotFound() {
   const router = useRouter();
 
   return (
-    <main className="flex min-h-screen md:mt-10 items-center justify-center bg-gray-50 px-6">
+    <main className="flex min-h-screen mt-6 items-center justify-center bg-gray-50 px-6">
 
       <motion.div
         initial={{
