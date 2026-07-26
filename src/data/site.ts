@@ -282,11 +282,4 @@ export const leadership = [
     image: "/images/chinedu2.jpeg",
     initials: "TA",
   },
-  {
-    name: "Dr. Samuel Ezeh",
-    title: "Media & Communications Lead",
-    bio: "AN IT specialist with a passion for storytelling and digital communication.",
-    image: "/images/chinedu1.jpeg",
-    initials: "SE",
-  },
 ];
