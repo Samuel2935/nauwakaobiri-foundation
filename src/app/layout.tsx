@@ -6,6 +6,7 @@ import { Playfair_Display, Inter } from "next/font/google";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import { siteConfig } from "@/data/site";
+import FloatingDonate from "@/components/floating-donate";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -88,6 +89,7 @@ export default function RootLayout({
     <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
       <body className="font-body antialiased bg-white text-gray-900">
         <Navbar />
+        <FloatingDonate/>
         {children}
         <Footer />
       </body>
