@@ -1,17 +1,74 @@
-// "use client";
+"use client";
 import Link from "next/link";
 import { ArrowRight, Play } from "lucide-react";
 import { siteConfig } from "@/data/site";
+import { motion } from "motion/react";
+
+const container = {
+  hidden: {},
+  show: {
+    transition: {
+      staggerChildren: 0.15,
+      delayChildren: 0.2,
+    },
+  },
+};
+
+const fadeUp = {
+  hidden: {
+    opacity: 0,
+    y: 40,
+  },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.7,
+    },
+  },
+};
+
+const fade = {
+  hidden: {
+    opacity: 0,
+  },
+  show: {
+    opacity: 1,
+    transition: {
+      duration: 0.8,
+    },
+  },
+};
+
+const zoomBackground = {
+  hidden: {
+    scale: 1.08,
+  },
+  show: {
+    scale: 1,
+    transition: {
+      duration: 2,
+    },
+  },
+};
 
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Background image with overlay */}
-      <div
+      {/* <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: "url('/images/power4.jpg')",
-          // backgroundSize: "50%"
+        }}
+      /> */}
+      <motion.div
+        variants={zoomBackground}
+        initial="hidden"
+        animate="show"
+        className="absolute inset-0 bg-cover bg-center bg-gradient-to-r from-gray-950/90 via-gray-950/70 to-gray-900/30 bg-no-repeat"
+        style={{
+          backgroundImage: "url('/images/power4.jpg')",
         }}
       />
       {/* Layered overlay — dark left, lighter right for text legibility */}
@@ -20,17 +77,35 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 pt-32 pb-20 w-full">
-        <div className="max-w-3xl">
+        <motion.div
+          variants={container}
+          initial="hidden"
+          animate="show"
+          className="max-w-3xl"
+        >
           {/* Eyebrow */}
-          <div className="inline-flex items-center gap-3 mb-8">
+          <motion.div
+            // initial={{ opacity: 0, y: 20 }}
+            // whileInView={{ opacity: 1, y: 0 }}
+            // transition={{ duration: 0.5, delay: 0.2 }}
+            // viewport={{ once: true }}
+            variants={fadeUp}
+            className="inline-flex items-center gap-3 mb-8"
+          >
             <div className="w-8 h-px bg-yellow-400" />
             <span className="text-yellow-400 text-xs font-bold tracking-[0.2em] uppercase">
               Rooted in Youth Empowerment. Philantropism. Community Development.
             </span>
-          </div>
+          </motion.div>
 
           {/* Headline */}
-          <h1 className="font-display font-black text-white text-5xl md:text-6xl lg:text-7xl leading-[1.03] mb-8">
+          <motion.h1
+          // initial={{ opacity: 0, y: 20 }}
+          // whileInView={{ opacity: 1, y: 0 }}
+          // transition={{ duration: 0.5, delay: 0.3 }}
+          // viewport={{ once: true }} 
+           variants={fadeUp}
+          className="font-display font-black text-white text-5xl md:text-6xl lg:text-7xl leading-[1.03] mb-8">
             Investing in <span className="text-emerald-400">People.</span>
             <br />
             Transforming{" "}
@@ -38,16 +113,26 @@ export default function Hero() {
               Communities.
               <span className="absolute -bottom-2 left-0 right-0 h-1 bg-emerald-500/40" />
             </span>
-          </h1>
+          </motion.h1>
 
           {/* Sub */}
-          <p className="text-gray-200 text-lg md:text-sm leading-relaxed max-w-xl mb-10">
-            The Nuwakobiri Foundation is a pipeline for social change, dedicated to empowering youth, fostering community development, and driving impactful philanthropy across Nigeria and beyond. We believe in the power of collective action to create a brighter future for all.
-            
-          </p>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+            viewport={{ once: true }}
+            className="text-gray-200 text-lg md:text-sm leading-relaxed max-w-xl mb-10"
+          >
+            The Nuwakobiri Foundation is a pipeline for social change, dedicated
+            to empowering youth, fostering community development, and driving
+            impactful philanthropy across Nigeria and beyond. We believe in the
+            power of collective action to create a brighter future for all.
+          </motion.p>
 
           {/* CTAs */}
-          <div className="flex flex-wrap gap-4 mb-16">
+          <motion.div
+           variants={fadeUp}
+          className="flex flex-wrap gap-4 mb-16">
             <Link
               target="_blank"
               rel="noopener noreferrer"
@@ -80,7 +165,7 @@ export default function Hero() {
               </span>
               Watch Our Podcasts
             </Link>
-          </div>
+          </motion.div>
 
           {/* Quick stats */}
           <div className="flex flex-wrap gap-x-10 gap-y-4 border-t border-white/10 pt-8">
@@ -99,7 +184,7 @@ export default function Hero() {
               </div>
             ))}
           </div>
-        </div>
+        </motion.div>
       </div>
 
       {/* Bottom wave */}

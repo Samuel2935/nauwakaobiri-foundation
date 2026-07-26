@@ -229,11 +229,10 @@ export const newsItems = [
 
 // ─── PARTNERS ──────────────────────────────────────────────────
 export const partners = [
-  { name: "UN Development Programme", logo: "/images/partners/undp.svg" },
-  { name: "Access Bank Foundation", logo: "/images/partners/access.svg" },
+  { name: "UNESCO", logo: "/images/partners/undp.svg" },
   { name: "Ford Foundation", logo: "/images/partners/ford.svg" },
   { name: "Federal Ministry of Education", logo: "/images/partners/fme.svg" },
-  { name: "Dangote Foundation", logo: "/images/partners/dangote.svg" },
+  { name: "GUVI", logo: "/images/partners/guvi.svg" },
   { name: "MacArthur Foundation", logo: "/images/partners/macarthur.svg" },
 ];
 
