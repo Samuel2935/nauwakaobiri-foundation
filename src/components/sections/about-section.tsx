@@ -96,7 +96,7 @@ export default function AboutSection() {
                 }}
               >
                 <Image
-                  src={siteConfig.power3}
+                  src="/images/werise.jpeg"
                   alt={siteConfig.shortName}
                   width={800}
                   height={520}
@@ -126,14 +126,11 @@ export default function AboutSection() {
                 y: -6,
                 scale: 1.03,
               }}
-              className="absolute -bottom-32 -right-8 bg-emerald-800 text-white p-6 max-w-[200px] hidden md:block rounded-md shadow-2xl"
+              className="absolute -bottom-32 -left-0 bg-emerald-800 text-white p-6 max-w-full hidden md:block rounded-md shadow-2xl"
             >
-              <div className="font-display font-black text-4xl leading-none mb-1">
-                {siteConfig.founded}
-              </div>
-
-              <div className="text-emerald-200 text-xs uppercase tracking-widest">
-                Year Founded
+              <div className="font-display font-black text-4xl leading-none mb-1 border-b border-emerald-600 pb-1 text-emerald-100">
+                {/* {siteConfig.founded} */}
+                "WE RISE BY LIFTING OTHERS"
               </div>
 
               <div className="mt-3 text-xs text-emerald-300 leading-snug">

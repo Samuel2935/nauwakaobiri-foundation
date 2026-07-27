@@ -67,7 +67,6 @@ export default function ProgrammeSection() {
     >
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-
           {/* LEFT */}
           <motion.div variants={fadeLeft}>
             <motion.p
@@ -89,10 +88,7 @@ export default function ProgrammeSection() {
               className="w-14 h-1 bg-emerald-600 mb-10"
             />
 
-            <motion.div
-              variants={container}
-              className="space-y-8"
-            >
+            <motion.div variants={container} className="space-y-8">
               {programmeSteps.map((step, i) => (
                 <motion.div
                   key={step.step}
@@ -168,10 +164,7 @@ export default function ProgrammeSection() {
           </motion.div>
 
           {/* RIGHT */}
-          <motion.div
-            variants={fadeRight}
-            className="relative"
-          >
+          <motion.div variants={fadeRight} className="relative">
             <motion.div
               whileHover={{
                 scale: 1.02,
@@ -251,7 +244,6 @@ export default function ProgrammeSection() {
               </div>
             </motion.div>
           </motion.div>
-
         </div>
       </div>
     </motion.section>
