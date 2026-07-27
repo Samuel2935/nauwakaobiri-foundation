@@ -261,23 +261,23 @@ Thank you for believing in our vision and for being part of this mission to chan
 // ─── TEAM / LEADERSHIP ─────────────────────────────────────────
 export const leadership = [
   {
-    name: "Hon. Chief Chinedu Samuel Edeh a.k.a Nuwakobiri",
-    title: "Founder & Board Chairman",
-    bio: "Hon. Chief Chinedu Samuel Edeh is a renowned entrepreneur who has spent years building institutions that empower communities and finance in Nigeria.",
+    name: "Chief Barr. Ubochi",
+    title: "Chairman, Nuwakobiri Youth Foundation",
+    bio: "Chief Barr. Ubochi is a respected community leader and advocate for youth empowerment.",
     image: "/images/chinedu1.jpeg",
     initials: "CE",
   },
   {
-    name: "Chief (Mrs.) Ngozi Obi",
-    title: "Co-Founder & Executive Director",
-    bio: "A former World Bank consultant and education advocate, Ngozi leads the Foundation's strategic direction and programme delivery.",
+    name: "Hon. Chief Chinedu Samuel Edeh",
+    title: "Manager, Nuwakobiri Youth Foundation",
+    bio: "Hon. Chief Chinedu Samuel Edeh is a renowned entrepreneur who has spent years building institutions that empower communities and finance in Nigeria.",
     image: "/images/nuwaphoto1.jpeg",
     initials: "NO",
   },
   {
-    name: "Tunde Adeyemi",
-    title: "Director of Programmes",
-    bio: "Tunde brings 15 years of development sector experience managing grants and community programmes across sub-Saharan Africa.",
+    name: "ENGR. Asika Daniel",
+    title: "Secretary, Nuwakobiri Youth Foundation",
+    bio: "Engr. Asika Daniel is a civil engineer and philanthropist with a passion for youth development and community service.",
     image: "/images/chinedu2.jpeg",
     initials: "TA",
   },

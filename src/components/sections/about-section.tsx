@@ -64,7 +64,6 @@ const fadeRight = {
     },
   },
 };
-
 export default function AboutSection() {
   return (
     <motion.section
@@ -79,21 +78,16 @@ export default function AboutSection() {
           {/* Image Side */}
           <motion.div variants={fadeLeft} className="relative">
             <motion.div
-              whileHover={{
-                scale: 1.02,
-              }}
-              transition={{
-                duration: 0.4,
-              }}
+              whileHover={{ scale: 1.02 }}
+              transition={{ duration: 0.4 }}
               className="relative overflow-hidden rounded-md"
             >
               <motion.div
                 initial={{ scale: 1.1 }}
                 whileInView={{ scale: 1 }}
                 viewport={{ once: true }}
-                transition={{
-                  duration: 1.2,
-                }}
+                transition={{ duration: 1.2 }}
+                className="relative"
               >
                 <Image
                   src="/images/werise.jpeg"
@@ -102,10 +96,21 @@ export default function AboutSection() {
                   height={520}
                   className="w-full h-[520px] object-cover rounded-md"
                 />
+
+                {/* Mobile Overlay (Visible only on mobile) */}
+                <div className="absolute inset-0 flex items-end bg-gradient-to-t from-black/80 via-black/30 to-transparent md:hidden">
+                  <div className="p-6">
+                    <h3 className="font-display text-3xl font-black text-white leading-tight">
+                      WE RISE BY
+                      <br />
+                      LIFTING OTHERS
+                    </h3>
+                  </div>
+                </div>
               </motion.div>
             </motion.div>
 
-            {/* Floating Card */}
+            {/* Floating Card (Desktop only) */}
             <motion.div
               initial={{
                 opacity: 0,
@@ -126,14 +131,13 @@ export default function AboutSection() {
                 y: -6,
                 scale: 1.03,
               }}
-              className="absolute -bottom-32 -left-0 bg-emerald-800 text-white p-6 max-w-full hidden md:block rounded-md shadow-2xl"
+              className="absolute -bottom-32 left-0 hidden max-w-full rounded-md bg-emerald-800 p-6 text-white shadow-2xl md:block"
             >
               <div className="font-display font-black text-4xl leading-none mb-1 border-b border-emerald-600 pb-1 text-emerald-100">
-                {/* {siteConfig.founded} */}
                 "WE RISE BY LIFTING OTHERS"
               </div>
 
-              <div className="mt-3 text-xs text-emerald-300 leading-snug">
+              <div className="mt-3 text-xs leading-snug text-emerald-300">
                 Five years of sustained youth empowerment and community
                 development initiatives across Nigeria and West Africa.
               </div>
@@ -189,9 +193,7 @@ export default function AboutSection() {
 
             <motion.div
               variants={fadeUp}
-              whileHover={{
-                y: -4,
-              }}
+              whileHover={{ y: -4 }}
               className="bg-emerald-50 rounded-md border-l-4 border-emerald-600 p-5 mb-8"
             >
               <p className="text-sm text-emerald-900 font-semibold italic leading-relaxed">
@@ -208,9 +210,7 @@ export default function AboutSection() {
                 <motion.li
                   key={value}
                   variants={fadeUp}
-                  whileHover={{
-                    x: 8,
-                  }}
+                  whileHover={{ x: 8 }}
                   className="flex items-start gap-3 text-sm text-gray-600"
                 >
                   <motion.div
@@ -235,12 +235,8 @@ export default function AboutSection() {
 
             <motion.div
               variants={fadeUp}
-              whileHover={{
-                scale: 1.05,
-              }}
-              whileTap={{
-                scale: 0.97,
-              }}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.97 }}
             >
               <Link
                 href="/about-us"
