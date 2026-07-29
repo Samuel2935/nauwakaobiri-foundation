@@ -261,7 +261,7 @@ Thank you for believing in our vision and for being part of this mission to chan
 // ─── TEAM / LEADERSHIP ─────────────────────────────────────────
 export const leadership = [
   {
-    name: "Chief Barr. Ubochi",
+    name: "Chief Barr. Uche Ubochi",
     title: "Chairman, Nuwakobiri Youth Foundation",
     bio: "Chief Barr. Ubochi is a respected community leader and advocate for youth empowerment.",
     image: "/images/chinedu1.jpeg",
