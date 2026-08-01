@@ -209,7 +209,6 @@ export default function FoundersSection() {
                 bg-emerald-100
                 "
               >
-
                 <LeaderImage
                   src={leader.image}
                   alt={leader.name}
