@@ -44,7 +44,7 @@ export const navLinks = [
     children: [
       { label: "Our Story", href: "" },
       { label: "Mission & Vision", href: "/about-us" },
-      { label: "Our Founders", href: "/founders" },
+      // { label: "Our Founders", href: "/founders" },
       { label: "Leadership & Board", href: "/founders" },
       { label: "Our Philosophy", href: "" },
     ],

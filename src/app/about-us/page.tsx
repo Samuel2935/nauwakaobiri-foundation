@@ -85,6 +85,33 @@ export default function AboutUs() {
                 type: "spring",
                 stiffness: 250,
               }}
+              className="bg-emerald-50 rounded-md border-l-4 border-emerald-600 p-4 text-sm mb-8"
+            >
+              <h3 className="text-lg text-emerald-800 font-semibold mb-2">
+                The Meaning Behind NUWAKOBIRI
+              </h3>
+
+              <p>
+                The name NUWAKOBIRI is an indigenous name/expression that means
+                " everything ends in this world." It conveys the philosophical
+                belief that nothing in life is permanent and serves as a
+                reminder of the transient nature of worldly affairs. The name
+                was chosen to reflect values of humility, wisdom, resilience,
+                and purposeful living. It is a unique name, is not intended to
+                mislead the public, and does not suggest any affiliation with
+                any government institution or existing registered entity.
+              </p>
+            </motion.div>
+
+            <motion.div
+              whileHover={{
+                y: -6,
+                scale: 1.01,
+              }}
+              transition={{
+                type: "spring",
+                stiffness: 250,
+              }}
               className="bg-yellow-100 rounded-md border-l-4 border-emerald-600 p-4 text-sm mb-8"
             >
               <h3 className="text-lg text-emerald-800 font-semibold mb-2">
