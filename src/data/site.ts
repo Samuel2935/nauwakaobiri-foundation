@@ -6,7 +6,7 @@
 import { X } from "lucide-react";
 
 export const siteConfig = {
-  name: "Nuwakobiri Foundation",
+  name: "Nuwakobiri Youth Foundation",
   shortName: "NUF",
   logo: "/images/nuwakaobirifdn-logo.jpeg",
   unity: "/images/nuwaphoto1.jpeg",
@@ -16,11 +16,11 @@ export const siteConfig = {
   power3: "/images/power3.webp",
   power5: "/images/power5.jpg",
   tagline: "Rooted in Youths Empowerment.",
-  domain: "nuwakobirifoundation.org",
+  domain: "nuwakobiriyouthfoundation.org",
   icon: "/images/nuwakaobirifdn-logo.jpeg",
   description:
-    "The Nuwakobiri Foundation is a non-profit organisation dedicated to empowering the youths through education, healthcare, and economic opportunity across Nigeria and West Africa.",
-  email: "nuwakobirifoundation@gmail.com",
+    "The Nuwakobiri Youth Foundation is a non-profit organisation dedicated to empowering the youths through education, healthcare, and economic opportunity across Nigeria and West Africa.",
+  email: "nuwakobiriyouthfoundation@gmail.com",
   phone: "+234 703 843 3864",
   address: "C036 Sokoto Plaza, Tradefair International Complex, Lagos, Nigeria",
   founded: "2021",
@@ -169,8 +169,8 @@ export const stories = [
     name: "Chimezie Ossai",
     location: "Lisbon, Portugal",
     programme: "Youth Empowerment Programme",
-    headline: "From doing a menial job to travelling the world — all thanks to a micro-grant",
-    body: "Chimezie received a sponsored visa and micro-grant from NUF to start a small business in Lisbon. He now employs 5 people and has expanded to two other European countries.",
+    headline: "From Micro-Grant to Micro-Business: How NUF Helped Me Build a Thriving Enterprise in Europe",
+    body: "Chimezie Ossai received a micro-grant from NUF to start a small business in Lisbon. He now employs 5 people and has expanded to two other European countries.",
     image: "/images/smart.jpeg",
     imageFallback: "CO",
   },

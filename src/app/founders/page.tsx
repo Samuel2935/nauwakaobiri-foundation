@@ -242,7 +242,7 @@ export default function FoundersSection() {
               >
                 <h3
                   className="
-                  mb-3
+                  mb-1
                   font-display
                   text-base
                   font-bold
@@ -252,6 +252,8 @@ export default function FoundersSection() {
                 >
                   {leader.name}
                 </h3>
+                                <h6 className="text-xs font-semibold text-emerald-600 mb-4">{leader.title}</h6>
+
 
                 <p
                   className="
