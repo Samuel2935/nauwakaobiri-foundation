@@ -251,7 +251,7 @@ I invite you to join us on this journey. Whether you choose to volunteer, donate
 Thank you for believing in our vision and for being part of this mission to change lives.
 `,
   mission:
-    "Our mission is to bring hope, restore dignity, and create lasting opportunities for vulnerable individuals and communities through compassion, service, and sustainable development.",
+    `The name NUWAKOBIRI is an indigenous name/expression that means " everything ends in this world." It conveys the philosophical belief that nothing in life is permanent and serves as a reminder of the transient nature of worldly affairs. The name was chosen to reflect values of humility, wisdom, resilience, and purposeful living. It is a unique name, is not intended to mislead the public, and does not suggest any affiliation with any government institution or existing registered entity.`,
   vision:
     "A Nigeria where every person — regardless of where they were born — can access the resources they need to live a dignified, prosperous life.",
   philosophy:

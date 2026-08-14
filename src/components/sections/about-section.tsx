@@ -201,7 +201,7 @@ export default function AboutSection() {
               </p>
 
               <p className="text-xs text-emerald-600 mt-2 font-bold uppercase tracking-wide">
-                Our Mission
+                THE MEANING OF NUWAKOBIRI
               </p>
             </motion.div>
 
