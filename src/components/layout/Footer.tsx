@@ -365,7 +365,7 @@ text-gray-600
         >
           <span>
             © {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
-            RC 1234567
+            
           </span>
 
           <div>
