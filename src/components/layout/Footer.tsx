@@ -372,14 +372,14 @@ text-gray-600
             <span className="mr-2">Developed by</span>
 
             <Link
-              href="https://samdev-drab.vercel.app/"
+              href="https://realcore.com.ng/"
               target="_blank"
               className="
 text-emerald-400
 hover:text-emerald-600
 "
             >
-              ꓢꓥꓟꓓꓰꓦ & SIRZEE
+              RealCore Technologies
             </Link>
           </div>
 
