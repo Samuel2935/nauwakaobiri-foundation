@@ -48,21 +48,21 @@ const images = [
   {
     id: 7,
     src: "/images/gallery/img9.jpeg",
-    title: "Taking care of the aged and disabled",
+    title: "Providing Palliative Care and Support to the less privileged",
     category: "Community Outreach",
     alt: "Touching lives through humanitarian services",
   },
   {
     id: 8,
     src: "/images/gallery/img11.jpeg",
-    title: "Taking care of the aged and disabled",
+    title: "Providing Palliative Care and Support to the community",
     category: "Community Outreach",
     alt: "Touching lives through humanitarian services",
   },
   {
     id: 9,
     src: "/images/gallery/img13.jpeg",
-    title: "Supporting the education of our children",
+    title: "Supporting the Children and less privileged through scholarship awards",
     category: "Community Outreach",
     alt: "Touching lives through humanitarian services",
   },
@@ -83,7 +83,7 @@ const images = [
   {
     id: 12,
     src: "/images/gallery/img18.jpeg",
-    title: "Donating food and other essential items to the less privileged",
+    title: "Donating food and other essential palliative care items to the less privileged",
     category: "Community Outreach",
     alt: "Touching lives through humanitarian services",
   },
