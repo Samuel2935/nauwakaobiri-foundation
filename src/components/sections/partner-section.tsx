@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "motion/react";
+
 import { partners } from "@/data/site";
 
 const container = {
@@ -30,66 +31,63 @@ const fadeUp = {
 export default function PartnersSection() {
   return (
     <motion.section
-      className="py-16 bg-gray-50 border-t border-gray-100 overflow-hidden"
+      className="overflow-hidden border-t border-gray-100 bg-gray-50 py-16"
       variants={container}
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.3 }}
     >
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="mx-auto max-w-7xl px-6">
         <motion.p
           variants={fadeUp}
-          className="text-center text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-10"
+          className="mb-10 text-center text-xs font-bold uppercase tracking-[0.2em] text-gray-400"
         >
           Trusted By Our Partners
         </motion.p>
 
         <motion.div
           variants={container}
-          className="flex flex-wrap items-center justify-center gap-10 md:gap-16"
+          className="flex flex-wrap items-center justify-center gap-6 md:gap-10"
         >
           {partners.map((partner, index) => (
-            <motion.div
+            <motion.a
               key={partner.name}
+              href={partner.href || undefined}
+              target={partner.href ? "_blank" : undefined}
+              rel={partner.href ? "noopener noreferrer" : undefined}
               variants={fadeUp}
               initial={{
                 opacity: 0,
                 y: 20,
               }}
               whileInView={{
-                opacity: 0.55,
+                opacity: 0.7,
                 y: 0,
               }}
               viewport={{ once: true }}
+              animate={{
+                y: [0, -4, 0],
+              }}
               transition={{
+                opacity: {
+                  duration: 0.4,
+                  delay: index * 0.08,
+                },
                 y: {
                   duration: 4 + index,
                   repeat: Infinity,
                   ease: "easeInOut",
                 },
-                opacity: {
-                  duration: 0.2,
-                  delay: index * 0.08,
-                },
-                scale: {
-                  duration: 0.2,
-                },
-              }}
-              animate={{
-                y: [0, -4, 0],
               }}
               whileHover={{
                 opacity: 1,
                 y: -8,
-                scale: 1.08,
+                scale: 1.05,
               }}
-              
-              className="cursor-pointer select-none grayscale hover:grayscale-0"
+              className="rounded-xl px-5 py-3 font-display text-sm font-black tracking-tight text-gray-900 transition-colors duration-300 hover:text-gray-600 md:text-base"
             >
-              <span className="font-display font-black text-gray-900 text-sm md:text-base tracking-tight">
-                {partner.name}
-              </span>
-            </motion.div>
+              {partner.name}
+            </motion.a>
           ))}
         </motion.div>
       </div>

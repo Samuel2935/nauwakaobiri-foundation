@@ -379,7 +379,7 @@ text-emerald-400
 hover:text-emerald-600
 "
             >
-              RealCore Technologies
+              REALCORE TECHNOLOGIES LTD
             </Link>
           </div>
 

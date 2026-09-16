@@ -372,28 +372,27 @@ export const newsItems = [
 
 export const partners = [
   {
-    name: "UNESCO",
+    name: "JCI INTERNATIONAL",
     logo: "/images/partners/undp.svg",
+    href: "",
   },
 
   {
-    name: "Ford Foundation",
-    logo: "/images/partners/ford.svg",
-  },
-
-  {
-    name: "Federal Ministry of Education",
-    logo: "/images/partners/fme.svg",
+    name: "REALCORE TECHNOLOGIES",
+    logo: "/images/realcore-icon-accurate.svg",
+    href: "https://realcore.com.ng",
   },
 
   {
     name: "GUVI",
-    logo: "/images/partners/guvi.svg",
+    logo: "/images/partners/fme.svg",
+    href: "https://realcore.com.ng",   
   },
 
   {
-    name: "MacArthur Foundation",
+    name: "DIVINE EAGLE TRAVEL & TOURS",
     logo: "/images/partners/macarthur.svg",
+    href: "https://divineeagle.com.ng",
   },
 ];
 
