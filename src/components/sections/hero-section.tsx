@@ -68,7 +68,8 @@ export default function Hero() {
         animate="show"
         className="absolute inset-0 bg-cover bg-center bg-gradient-to-r from-gray-950/90 via-gray-950/70 to-gray-900/30 bg-no-repeat"
         style={{
-          backgroundImage: "url('/images/power4.jpg')",
+          // backgroundImage: "url('/images/power4.jpg')",
+          backgroundImage: "url('/images/gallery/img7.jpeg')",
         }}
       />
       {/* Layered overlay — dark left, lighter right for text legibility */}

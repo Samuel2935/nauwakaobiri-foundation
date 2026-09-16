@@ -9,6 +9,7 @@ import DonateBanner from "@/components/sections/donate-banner";
 import NewsSection from "@/components/sections/news-section";
 import PartnersSection from "@/components/sections/partner-section";
 import FoundersSection from "@/app/founders/page";
+import Gallery from "@/components/gallery";
 
 export default function HomePage() {
   return (
@@ -16,6 +17,7 @@ export default function HomePage() {
       <Hero />
       <StatsStrip />
       <AboutSection />
+      <Gallery />
       <PillarsSection />
       <ProgrammeSection />
       <StoriesSection />
