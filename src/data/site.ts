@@ -498,3 +498,118 @@ export const leadership = [
     },
   },
 ];
+
+// ─── DONATION / BANK TRANSFER DETAILS ─────────────────────────
+
+export const donationAccounts = [
+  {
+    currency: "NGN",
+    currencyName: "Nigerian Naira",
+    flag: "🇳🇬",
+    description:
+      "For donations and transfers from within Nigeria.",
+
+    details: [
+      {
+        label: "Account Name",
+        value: "NUWAKOBIRI YOUTH FOUNDATION",
+      },
+      {
+        label: "Bank",
+        value: "PROVIDUS BANK PLC",
+      },
+      {
+        label: "Account Number",
+        value: "1310723728",
+        copyable: true,
+      },
+    ],
+  },
+
+  {
+    currency: "GBP",
+    currencyName: "British Pounds",
+    flag: "🇬🇧",
+    description:
+      "For donations and transfers in British Pounds.",
+
+    details: [
+      {
+        label: "Account Name",
+        value: "NUWAKOBIRI YOUTH FOUNDATION",
+      },
+      {
+        label: "Bank",
+        value: "PROVIDUS BANK PLC",
+      },
+      {
+        label: "Sort Code",
+        value: "00-00-00",
+        copyable: true,
+      },
+      {
+        label: "Account Number",
+        value: "1310729880",
+        copyable: true,
+      },
+    ],
+  },
+
+  {
+    currency: "EUR",
+    currencyName: "Euro",
+    flag: "🇪🇺",
+    description:
+      "For donations and transfers in Euros.",
+
+    details: [
+      {
+        label: "Account Name",
+        value: "NUWAKOBIRI YOUTH FOUNDATION",
+      },
+      {
+        label: "Bank",
+        value: "PROVIDUS BANK PLC",
+      },
+      {
+        label: "IBAN",
+        value: "1310729919",
+        copyable: true,
+      },
+      {
+        label: "BIC / SWIFT",
+        value: "YOUR SWIFT CODE",
+        copyable: true,
+      },
+    ],
+  },
+
+  {
+    currency: "USD",
+    currencyName: "US Dollar",
+    flag: "🇺🇸",
+    description:
+      "For donations and transfers in US Dollars.",
+
+    details: [
+      {
+        label: "Account Name",
+        value: "NUWAKOBIRI YOUTH FOUNDATION",
+      },
+      {
+        label: "Bank",
+        value: "PROVIDUS BANK PLC",
+      },
+      {
+        label: "Account Number",
+        value: "1310729892",
+        copyable: true,
+      },
+      {
+        label: "SWIFT / BIC",
+        value: "YOUR SWIFT CODE",
+        copyable: true,
+      },
+    ],
+  },
+];
