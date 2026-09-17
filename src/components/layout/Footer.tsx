@@ -364,7 +364,7 @@ text-gray-600
 "
         >
           <span>
-            © {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
+            © {new Date().getFullYear()} {siteConfig.name}. All rights reserved. RC 9779389
             
           </span>
 

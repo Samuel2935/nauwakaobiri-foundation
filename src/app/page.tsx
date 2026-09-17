@@ -10,6 +10,7 @@ import NewsSection from "@/components/sections/news-section";
 import PartnersSection from "@/components/sections/partner-section";
 import FoundersSection from "@/app/founders/page";
 import Gallery from "@/components/gallery";
+import LeadershipSection from "@/app/founders/page";
 
 export default function HomePage() {
   return (
@@ -23,6 +24,7 @@ export default function HomePage() {
       <StoriesSection />
       <DonateBanner />
       <FoundersSection />
+      <LeadershipSection/>
       <NewsSection />
       <PartnersSection />
     </main>

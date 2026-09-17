@@ -1,22 +1,26 @@
 "use client";
 
 import { useState } from "react";
+
 import Image from "next/image";
 import Link from "next/link";
+
 import { ArrowRight } from "lucide-react";
 import { motion, type Variants } from "motion/react";
 
 import { leadership } from "@/data/site";
 
+interface LeaderImageProps {
+  src: string;
+  alt: string;
+  initials: string;
+}
+
 function LeaderImage({
   src,
   alt,
   initials,
-}: {
-  src: string;
-  alt: string;
-  initials: string;
-}) {
+}: LeaderImageProps) {
   const [hasError, setHasError] = useState(false);
 
   if (hasError) {
@@ -25,6 +29,7 @@ function LeaderImage({
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         className="flex h-full w-full items-center justify-center bg-emerald-800 text-4xl font-black text-white"
+        aria-label={alt}
       >
         {initials}
       </motion.div>
@@ -37,14 +42,15 @@ function LeaderImage({
       alt={alt}
       fill
       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-      className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
+      className="object-cover object-top transition-transform duration-700 ease-out group-hover:scale-105"
       onError={() => setHasError(true)}
     />
   );
 }
 
-const container: Variants = {
+const containerVariants: Variants = {
   hidden: {},
+
   show: {
     transition: {
       staggerChildren: 0.15,
@@ -52,7 +58,7 @@ const container: Variants = {
   },
 };
 
-const fadeUp: Variants = {
+const fadeUpVariants: Variants = {
   hidden: {
     opacity: 0,
     y: 40,
@@ -61,6 +67,7 @@ const fadeUp: Variants = {
   show: {
     opacity: 1,
     y: 0,
+
     transition: {
       duration: 0.6,
       ease: "easeInOut",
@@ -68,7 +75,7 @@ const fadeUp: Variants = {
   },
 };
 
-export default function FoundersSection() {
+export default function LeadershipSection() {
   return (
     <motion.section
       className="bg-gray-50 py-24"
@@ -78,12 +85,12 @@ export default function FoundersSection() {
         once: true,
         amount: 0.2,
       }}
-      variants={container}
+      variants={containerVariants}
     >
       <div className="mx-auto max-w-7xl px-6">
-        {/* Header */}
+        {/* Section Header */}
         <motion.div
-          variants={fadeUp}
+          variants={fadeUpVariants}
           className="mb-14 flex flex-col justify-between gap-6 md:flex-row md:items-end"
         >
           <div>
@@ -98,6 +105,7 @@ export default function FoundersSection() {
             <motion.div
               initial={{ width: 0 }}
               whileInView={{ width: 56 }}
+              viewport={{ once: true }}
               transition={{ duration: 0.6 }}
               className="h-1 bg-emerald-600"
             />
@@ -105,45 +113,81 @@ export default function FoundersSection() {
 
           <Link
             href="/founders"
-            className="group inline-flex shrink-0 items-center gap-2 text-sm font-bold uppercase tracking-widest text-emerald-700 hover:text-emerald-900"
+            className="
+              group
+              inline-flex
+              shrink-0
+              items-center
+              gap-2
+              text-sm
+              font-bold
+              uppercase
+              tracking-widest
+              text-emerald-700
+              transition-colors
+              hover:text-emerald-900
+            "
           >
             View All Leaders
 
             <ArrowRight
               size={14}
-              className="transition-transform group-hover:translate-x-1"
+              aria-hidden="true"
+              className="transition-transform duration-300 group-hover:translate-x-1"
             />
           </Link>
         </motion.div>
 
-        {/* Leaders */}
+        {/* Leadership Cards */}
         <motion.div
-          variants={container}
+          variants={containerVariants}
           className="grid grid-cols-1 gap-8 md:grid-cols-3"
         >
           {leadership.map((leader) => (
             <motion.article
               key={leader.slug}
-              variants={fadeUp}
-              whileHover={{ y: -10 }}
+              variants={fadeUpVariants}
+              whileHover={{
+                y: -10,
+              }}
               transition={{
                 type: "spring",
                 stiffness: 220,
               }}
-              className="group flex flex-col overflow-hidden rounded-md bg-white hover:shadow-xl"
+              className="
+                group
+                flex
+                flex-col
+                overflow-hidden
+                rounded-md
+                bg-white
+                shadow-sm
+                transition-shadow
+                duration-300
+                hover:shadow-xl
+              "
             >
               {/* Image */}
-              <div className="relative h-96 overflow-hidden rounded-md bg-emerald-100">
+              <div className="relative h-96 overflow-hidden bg-emerald-100">
                 <LeaderImage
                   src={leader.image}
                   alt={leader.name}
                   initials={leader.initials}
                 />
 
+                {/* Image Overlay */}
                 <motion.div
-                  initial={{ opacity: 0 }}
-                  whileHover={{ opacity: 1 }}
-                  className="absolute inset-0 bg-emerald-900/20"
+                  initial={{
+                    opacity: 0,
+                  }}
+                  whileHover={{
+                    opacity: 1,
+                  }}
+                  transition={{
+                    duration: 0.3,
+                  }}
+                  className="pointer-events-none absolute inset-0 bg-emerald-900/20"
+                  aria-hidden="true"
                 />
               </div>
 
@@ -161,30 +205,58 @@ export default function FoundersSection() {
                   {leader.bio}
                 </p>
 
+                {/* Footer */}
                 <div className="flex items-center justify-between border-t border-gray-100 pt-4">
-                  <div className="flex items-center gap-2">
+                  <div className="flex min-w-0 items-center gap-2">
                     <motion.div
                       whileHover={{
                         rotate: 10,
                         scale: 1.1,
                       }}
-                      className="flex h-7 w-7 items-center justify-center rounded-full bg-emerald-700 text-xs font-bold text-white"
+                      className="
+                        flex
+                        h-7
+                        w-7
+                        shrink-0
+                        items-center
+                        justify-center
+                        rounded-full
+                        bg-emerald-700
+                        text-xs
+                        font-bold
+                        text-white
+                      "
+                      aria-hidden="true"
                     >
                       {leader.initials}
                     </motion.div>
 
-                    <span className="text-sm font-semibold text-gray-800">
+                    <span className="truncate text-sm font-semibold text-gray-800">
                       {leader.name}
                     </span>
                   </div>
 
+                  {/* Leader Profile Link */}
                   <Link
                     href={`/leaders/${leader.slug}`}
-                    className="group/read inline-flex items-center gap-1 text-xs font-bold text-emerald-700 hover:text-emerald-900"
+                    className="
+                      group/read
+                      inline-flex
+                      shrink-0
+                      items-center
+                      gap-1
+                      text-xs
+                      font-bold
+                      text-emerald-700
+                      transition-colors
+                      hover:text-emerald-900
+                    "
                   >
                     Read
+
                     <ArrowRight
                       size={14}
+                      aria-hidden="true"
                       className="transition-transform duration-300 group-hover/read:translate-x-1"
                     />
                   </Link>

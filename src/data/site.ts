@@ -1,4 +1,3 @@
-
 // =============================================================
 // N'UWAKAOBIRI FOUNDATION — SITE DATA
 // Edit this file to update content across the entire site.
@@ -30,23 +29,18 @@ export const siteConfig = {
   email: "admin@nuwakobiriyouthfoundation.org",
   phone: "+234 816 699 7367",
 
-  address:
-    "C036 Sokoto Plaza, Tradefair International Complex, Lagos, Nigeria",
+  address: "C036 Sokoto Plaza, Tradefair International Complex, Lagos, Nigeria",
 
   founded: "2021",
 
   socials: {
-    facebook:
-      "https://www.facebook.com/share/18pxbCDMMx/?mibextid=wwXIfr",
+    facebook: "https://www.facebook.com/share/18pxbCDMMx/?mibextid=wwXIfr",
 
-    instagram:
-      "https://www.instagram.com/nuwakaobirifoundation?utm_source=qr",
+    instagram: "https://www.instagram.com/nuwakaobirifoundation?utm_source=qr",
 
-    linkedin:
-      "https://linkedin.com/company/nuwakaobiri-foundation",
+    linkedin: "https://linkedin.com/company/nuwakaobiri-foundation",
 
-    youtube:
-      "https://www.youtube.com/@NuwakaobiriFoundation-1",
+    youtube: "https://www.youtube.com/@NuwakaobiriFoundation-1",
 
     tiktok:
       "https://www.tiktok.com/@nuwakaobirifoundation?_r=1&_t=ZN-97CkgDEeAh4",
@@ -263,29 +257,25 @@ export const programmeSteps = [
   {
     step: "01",
     title: "Application & Screening",
-    body:
-      "Submit a simple application online. Our team reviews every submission and selects candidates based on need, potential, and community impact.",
+    body: "Submit a simple application online. Our team reviews every submission and selects candidates based on need, potential, and community impact.",
   },
 
   {
     step: "02",
     title: "Training & Capacity Building",
-    body:
-      "Selected participants undergo 8–12 weeks of skills training — ranging from business management to healthcare — delivered online and in-person.",
+    body: "Selected participants undergo 8–12 weeks of skills training — ranging from business management to healthcare — delivered online and in-person.",
   },
 
   {
     step: "03",
     title: "Grant & Mentorship",
-    body:
-      "Beneficiaries receive financial grants or scholarships and are matched with experienced mentors from our growing network.",
+    body: "Beneficiaries receive financial grants or scholarships and are matched with experienced mentors from our growing network.",
   },
 
   {
     step: "04",
     title: "Community & Alumni Network",
-    body:
-      "Graduates join a lifelong network of changemakers, accessing continued learning, partnerships, and opportunities.",
+    body: "Graduates join a lifelong network of changemakers, accessing continued learning, partnerships, and opportunities.",
   },
 ];
 
@@ -299,8 +289,7 @@ export const stories = [
     programme: "Youth Empowerment Programme",
     headline:
       "From Micro-Grant to Micro-Business: How NUF Helped Me Build a Thriving Enterprise in Europe",
-    body:
-      "Chimezie Ossai received a micro-grant from NUF to start a small business in Lisbon. He now employs 5 people and has expanded to two other European countries.",
+    body: "Chimezie Ossai received a micro-grant from NUF to start a small business in Lisbon. He now employs 5 people and has expanded to two other European countries.",
     image: "/images/smart.jpeg",
     imageFallback: "CO",
   },
@@ -312,8 +301,7 @@ export const stories = [
     programme: "Education Programme",
     headline:
       "Scholarship Changed My Trajectory — Now I Study Electrical Engineering at University in the UK",
-    body:
-      "Ayomide was about to drop out of secondary school before NUF's scholarship stepped in. He now studies Electrical Engineering at Bayero University, Kano.",
+    body: "Ayomide was about to drop out of secondary school before NUF's scholarship stepped in. He now studies Electrical Engineering at Bayero University, Kano.",
     image: "/images/power3.webp",
     imageFallback: "AB",
   },
@@ -325,8 +313,7 @@ export const stories = [
     programme: "Youth Leadership Academy",
     headline:
       "The Leadership Academy Gave Me an Opportunity to Achieve My Dream of Studying in the United States",
-    body:
-      "Samuel Ezeh attended the NUF Youth Leadership Academy and went on to receive a full scholarship to study in the United States.",
+    body: "Samuel Ezeh attended the NUF Youth Leadership Academy and went on to receive a full scholarship to study in the United States.",
     image: "/images/images1.jpg",
     imageFallback: "SE",
   },
@@ -339,8 +326,7 @@ export const newsItems = [
     id: "1",
     date: "June 12, 2025",
     category: "Press Release",
-    title:
-      "NUF Launches 2025 Cohort of the Economic Empowerment Programme",
+    title: "NUF Launches 2025 Cohort of the Economic Empowerment Programme",
     excerpt:
       "Over 800 applicants from 28 states have been selected for the 2025 cohort. Training begins July 1st across six regional hubs.",
     href: "/media/news/2025-cohort-launch",
@@ -350,8 +336,7 @@ export const newsItems = [
     id: "2",
     date: "May 3, 2025",
     category: "News",
-    title:
-      "Partnership with State Ministry Expands Free Medical Outreaches",
+    title: "Partnership with State Ministry Expands Free Medical Outreaches",
     excerpt:
       "A new MoU signed with the Anambra State Ministry of Health will extend our mobile clinic programme to 12 additional local government areas.",
     href: "/media/news/anambra-partnership",
@@ -386,7 +371,7 @@ export const partners = [
   {
     name: "GUVI",
     logo: "/images/partners/fme.svg",
-    href: "https://realcore.com.ng",   
+    href: "https://realcore.com.ng",
   },
 
   {
@@ -426,29 +411,90 @@ The name NUWAKOBIRI is an indigenous name/expression that means "everything ends
 
 export const leadership = [
   {
+    slug: "uche-ubochi",
+
     name: "Chief Barr. Uche Ubochi",
+
     title: "Chairman, Nuwakobiri Youth Foundation",
-    bio:
-      "Chief Barr. Ubochi is a respected community leader and advocate for youth empowerment.",
+
+    bio: "Chief Barr. Ubochi is a respected community leader and advocate for youth empowerment.",
+
     image: "/images/uche.jpg",
+
     initials: "UB",
+
+    profile: {
+      introduction:
+        "Barrister Magnus Uche Ubochi is an established Nigerian attorney, legal consultant, and alternative dispute resolution practitioner based in Lagos, Nigeria. He is best known as the Principal Partner of Uche Ubochi & Associates, a full-service commercial law firm located in the Ojo/Alaba area of Lagos State. He acts as a key legal and community advisor to trade unions, local Igbo diaspora socio-cultural associations, and grassroots organizations within the Ojo Local Government Area.",
+
+      background:
+        "Barrister Ubochi completed his foundational education in southeastern Nigeria before pursuing higher degrees in corporate law. He attended the historic Holy Ghost College in Owerri, Imo State, thereafter moved to Lagos to study law at Lagos State University (LASU), Ojo. He earned his Bachelor of Laws (LL.B.) and subsequently obtained his Master of Laws (LL.M.) degree from the same institution, specializing in corporate governance, property litigation, and advocacy. Magnus Uche Ubochi is a Nigerian legal practitioner, corporate consultant, and the principal partner at Uche Ubochi & Associates."
+,
+      focus: [
+        "Youth empowerment",
+        "Community and Social Welfare",
+        "Philanthropy",
+        "Legal Advocacy"
+      ],
+    },
   },
 
   {
+    slug: "chinedu-samuel-edeh",
+
     name: "Hon. Chief Chinedu Samuel Edeh",
+
     title: "Manager, Nuwakobiri Youth Foundation",
-    bio:
-      "Hon. Chief Chinedu Samuel Edeh is a renowned entrepreneur who has spent years building institutions that empower communities and finance in Nigeria.",
+
+    bio: "Hon. Chief Chinedu Samuel Edeh is a renowned entrepreneur who has spent years building institutions that empower communities and finance in Nigeria.",
+
     image: "/images/chinedu.jpg",
+
     initials: "CSE",
+
+    profile: {
+      introduction:
+        "Hon. Chief Chinedu Samuel Edeh serves as the Manager of the Nuwakobiri Youth Foundation.",
+
+      background:
+        "Hon. Chief Chinedu Samuel Edeh is an entrepreneur who has spent years building institutions that empower communities and support economic opportunities.",
+
+      focus: [
+        "Entrepreneurship",
+        "Economic empowerment",
+        "Institution building",
+        "Community development",
+        "Philanthropy"
+      ],
+    },
   },
 
   {
+    slug: "asika-daniel",
+
     name: "Engr. Asika Daniel",
+
     title: "Secretary, Nuwakobiri Youth Foundation",
-    bio:
-      "Engr. Asika Daniel is a civil engineer and philanthropist with a passion for youth development and community service.",
+
+    bio: "Engr. Asika Daniel is a civil engineer and philanthropist with a passion for youth development and community service.",
+
     image: "/images/daniel.jpg",
+
     initials: "AD",
+
+    profile: {
+      introduction:
+        "Engr. Asika Daniel serves as the Secretary of the Nuwakobiri Youth Foundation.",
+
+      background:
+        "Engr. Asika Daniel is a civil engineer and philanthropist with a passion for youth development and community service.",
+
+      focus: [
+        "Youth development",
+        "Community service",
+        "Engineering",
+        "Philanthropy",
+      ],
+    },
   },
 ];
