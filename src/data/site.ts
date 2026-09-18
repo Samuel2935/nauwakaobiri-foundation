@@ -544,7 +544,7 @@ export const donationAccounts = [
       },
       {
         label: "Sort Code",
-        value: "00-00-00",
+        value: "UMPLNGLA",
         copyable: true,
       },
       {
@@ -578,7 +578,7 @@ export const donationAccounts = [
       },
       {
         label: "BIC / SWIFT",
-        value: "YOUR SWIFT CODE",
+        value: "UMPLNGLA",
         copyable: true,
       },
     ],
@@ -607,7 +607,7 @@ export const donationAccounts = [
       },
       {
         label: "SWIFT / BIC",
-        value: "YOUR SWIFT CODE",
+        value: "UMPLNGLA",
         copyable: true,
       },
     ],
