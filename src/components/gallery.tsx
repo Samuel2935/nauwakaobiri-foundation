@@ -87,6 +87,20 @@ const images = [
     category: "Community Outreach",
     alt: "Touching lives through humanitarian services",
   },
+    {
+    id: 13,
+    src: "/images/gallery/IMG_8656 (1).jpg",
+    title: "Empowering the next generation of leaders through mentorship and guidance",
+    category: "Influence and Leadership",
+    alt: "Touching lives through humanitarian services",
+  },
+    {
+    id: 14,
+    src: "/images/gallery/IMG_8436.jpg",
+    title: "Sponsored Rise and Lead conference at FUTO, Owerri, Imo State",
+    category: "Influence and Leadership",
+    alt: "Touching lives through humanitarian services",
+  },
 ];
 
 const cardVariants: Variants = {

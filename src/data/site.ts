@@ -410,34 +410,36 @@ The name NUWAKOBIRI is an indigenous name/expression that means "everything ends
 // ─── TEAM / LEADERSHIP ────────────────────────────────────────
 
 export const leadership = [
-  {
-    slug: "uche-ubochi",
+ {
+  slug: "uche-ubochi",
 
-    name: "Chief Barr. Uche Ubochi",
+  name: "Chief Barr. Uche Ubochi",
 
-    title: "Chairman, Nuwakobiri Youth Foundation",
+  title: "Chairman, Nuwakobiri Youth Foundation",
 
-    bio: "Chief Barr. Ubochi is a respected community leader and advocate for youth empowerment.",
+  bio: "Chief Barr. Magnus Uche Ubochi is a Nigerian legal practitioner, legal consultant, community leader, and philanthropist. As the Principal Partner of Uche Ubochi & Associates in Lagos, he combines legal practice with community engagement and a strong commitment to youth empowerment, social welfare, and grassroots development.",
 
-    image: "/images/uche.jpg",
+  image: "/images/uche.jpg",
 
-    initials: "UB",
+  initials: "UB",
 
-    profile: {
-      introduction:
-        "Barrister Magnus Uche Ubochi is an established Nigerian attorney, legal consultant, and alternative dispute resolution practitioner based in Lagos, Nigeria. He is best known as the Principal Partner of Uche Ubochi & Associates, a full-service commercial law firm located in the Ojo/Alaba area of Lagos State. He acts as a key legal and community advisor to trade unions, local Igbo diaspora socio-cultural associations, and grassroots organizations within the Ojo Local Government Area.",
+  profile: {
+    introduction:
+      "Chief Barrister Magnus Uche Ubochi is a Nigerian legal practitioner, legal consultant, community leader, and philanthropist based in Lagos, Nigeria. He serves as the Principal Partner of Uche Ubochi & Associates, a law firm serving clients and communities within Lagos. Beyond his professional legal practice, Chief Ubochi is actively involved in community development and social initiatives, with a particular interest in youth empowerment, social welfare, and grassroots engagement. As Chairman of the Nuwakobiri Youth Foundation, he contributes his professional experience, leadership, and community network to the Foundation's mission of creating opportunities and supporting the development of young people.",
 
-      background:
-        "Barrister Ubochi completed his foundational education in southeastern Nigeria before pursuing higher degrees in corporate law. He attended the historic Holy Ghost College in Owerri, Imo State, thereafter moved to Lagos to study law at Lagos State University (LASU), Ojo. He earned his Bachelor of Laws (LL.B.) and subsequently obtained his Master of Laws (LL.M.) degree from the same institution, specializing in corporate governance, property litigation, and advocacy. Magnus Uche Ubochi is a Nigerian legal practitioner, corporate consultant, and the principal partner at Uche Ubochi & Associates."
-,
-      focus: [
-        "Youth empowerment",
-        "Community and Social Welfare",
-        "Philanthropy",
-        "Legal Advocacy"
-      ],
-    },
+    background:
+      "Chief Barr. Magnus Uche Ubochi originates from Owerri, Imo State, Nigeria. He completed his secondary education at Holy Ghost College in Owerri before proceeding to Lagos State University (LASU), Ojo, Lagos, where he studied Law and obtained his Bachelor of Laws (LL.B.) degree. He subsequently pursued his professional career in legal practice and became a qualified Nigerian legal practitioner. Over the course of his career, he established Uche Ubochi & Associates, where he serves as Principal Partner and provides legal services across a range of matters. His professional journey has also been complemented by his involvement in community affairs and grassroots development. Based in Lagos, he has maintained strong connections with community organizations and socio-cultural groups, particularly within the Igbo community. His leadership approach extends beyond his legal profession, reflecting an interest in using professional knowledge, relationships, and resources to support people and community initiatives. As Chairman of the Nuwakobiri Youth Foundation, he plays a leadership role in advancing the Foundation's commitment to youth empowerment, education, social welfare, philanthropy, and community development. His involvement in the Foundation reflects his broader belief in creating platforms through which young people and communities can access opportunities for growth and development.",
+
+    focus: [
+      "Legal Practice & Advocacy",
+      "Youth Empowerment",
+      "Community Development",
+      "Social Welfare",
+      "Philanthropy",
+      "Grassroots Leadership",
+    ],
   },
+},
 
   {
     slug: "chinedu-samuel-edeh",
@@ -446,7 +448,7 @@ export const leadership = [
 
     title: "Manager, Nuwakobiri Youth Foundation",
 
-    bio: "Hon. Chief Chinedu Samuel Edeh is a renowned entrepreneur who has spent years building institutions that empower communities and finance in Nigeria.",
+    bio: "Hon. Chief Chinedu Samuel Edeh is an entrepreneur, philanthropist, and community leader whose journey from humble beginnings to business and community leadership is defined by resilience, integrity, empowerment, and a commitment to creating opportunities for others.",
 
     image: "/images/chinedu.jpg",
 
@@ -454,17 +456,18 @@ export const leadership = [
 
     profile: {
       introduction:
-        "Hon. Chief Chinedu Samuel Edeh serves as the Manager of the Nuwakobiri Youth Foundation.",
+        "Hon. Chief Chinedu Samuel Edeh is an entrepreneur, philanthropist, community leader, and advocate for youth empowerment from Ehamufu, Isi-Uzo Local Government Area of Enugu State, Nigeria. His journey from humble beginnings and early struggles to entrepreneurship, community leadership, and philanthropy reflects a life shaped by resilience, determination, integrity, and a commitment to helping others. As the Manager of the Nuwakobiri Youth Foundation, he is committed to creating opportunities for young Nigerians, empowering individuals to pursue their aspirations, and contributing to sustainable social and economic development.",
 
       background:
-        "Hon. Chief Chinedu Samuel Edeh is an entrepreneur who has spent years building institutions that empower communities and support economic opportunities.",
+        "Chinedu Samuel Edeh began his early education at Community Primary School, Nkporogwu, Agwuata Local Government Area of Anambra State, in 2008. He subsequently attended Eventus International Secondary School, Umudim, Nnewi, Anambra State, where he obtained his Senior Secondary School Certificate Examination (SSCE) certificate in 2013. He began his life from a humble background in Anambra State and later became part of the Igbo apprenticeship system, popularly known as \"Igba Boy,\" at the International Trade Fair Complex, Ekiti Cluster, in Lagos State. Although the apprenticeship experience did not produce the outcome he had hoped for, he did not abandon his ambitions. He embraced the challenges before him and took on various menial jobs, including offloading and packing goods, in order to make ends meet. Through persistence, hard work, integrity, and his ability to build trusted relationships, he gradually established himself in business and eventually became a major distributor within the X-Pression business domain. As his entrepreneurial activities grew, he increasingly dedicated his influence and resources to helping others pursue their aspirations. His commitment to philanthropy and human development became a defining part of his journey. He believes that earthly achievements are ultimately temporary and that one's greatest legacy lies in the lives positively impacted along the way, a philosophy reflected in the name \"Nuwakobiri.\" Beyond entrepreneurship, he has demonstrated a strong interest in community leadership and development. In May 2026, he became President of Ago Beach Estate, Ojo, Lagos State. His vision for a structured platform that could contribute to the social and economic development of young Nigerians also contributed to the establishment of the Nuwakobiri Youth Foundation. Through the Foundation, he has supported and empowered individuals and sponsored young Nigerians for studies and work opportunities overseas. Hon. Chief Chinedu Samuel Edeh married Lolo Mariam Chinedu Edeh in 2019, and they are blessed with three children. His contributions to human development, leadership, philanthropy, and community service have also earned him several recognitions, including the BBA Outstanding Leadership and Impact Award, MC Emperor Encouragement Award, FUTO SUG Philanthropy of the Year Award, and Nigeria Army Patron Award, among others.",
 
       focus: [
         "Entrepreneurship",
-        "Economic empowerment",
-        "Institution building",
-        "Community development",
-        "Philanthropy"
+        "Youth Empowerment",
+        "Economic Empowerment",
+        "Institution Building",
+        "Community Development",
+        "Philanthropy",
       ],
     },
   },
