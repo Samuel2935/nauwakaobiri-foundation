@@ -23,7 +23,7 @@ export default function HomePage() {
       <ProgrammeSection />
       <StoriesSection />
       <DonateBanner />
-      <FoundersSection />
+      {/* <FoundersSection /> */}
       <LeadershipSection/>
       <NewsSection />
       <PartnersSection />
